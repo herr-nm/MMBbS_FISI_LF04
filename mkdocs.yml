@@ -1,0 +1,35 @@
+site_name: FISI Lernfeld 4
+
+theme:
+  name: material
+  language: de
+  font: false
+  favicon: bilder/favicon.png
+  logo: bilder/logo.png
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - include-markdown
+  - search
+
+extra_css:
+  - 'extra.css'
+
+use_directory_urls: false
+
+repo_url: https://github.com/herr-nm/MMBbS_FISI_LF04/
+
+site_url: https://herr-nm.github.io/MMBbS_FISI_LF04/
+
+nav:
+    - Informationen zur Kurslizenz: 'index.md'
+    - Kapitel 00 - Organisatorisches: '00_organisatorisches.md'
+    - Kapitel 01 - Vorstellung des Modellunternehmens: '01_modellunternehmen.md'
+    - Kapitel 02 - Grundlagen der Datenbanken: '02_schutzziele.md'
+    - Kapitel 03 - Datenbanken modellieren: '03_schutzbedarfsanalyse_planen.md'
+    - Kapitel 04 - Datenbanken anlegen: '04_bedrohungen_szenarien.md'
+    - Kapitel 05 - Datenbanken abfragen: '05_schutzbedarfsanalyse_durchfuehren.md'
