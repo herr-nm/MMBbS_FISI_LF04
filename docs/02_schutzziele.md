@@ -69,7 +69,7 @@ Ordnen Sie die in Aufgabe 1 identifizierten Probleme den Schutzzielen und ggf. w
 
 ---
 
-### Informationsmaterial M|2.0.0: CIA-Triade
+### Material M|2.0.0: CIA-Triade
 
 Die **CIA-Triade** bildet das Fundament der modernen Informationssicherheit. Das Akronym setzt sich aus den englischen Begriffen **Confidentiality**, **Integrity** und **Availability** zusammen. Diese drei Schutzziele definieren die grundlegenden Anforderungen an den sicheren Umgang mit Daten, Systemen und Prozessen in einer Organisation.
 
@@ -612,6 +612,11 @@ Das Ziel einer gelebten Sicherheitskultur ist es, Fehler nicht zu bestrafen, son
 
 ## Kompetenz 2.2: Integrität sicherstellen
 
+Nachdem Sie gemeinsam mit Ihrer Ausbilderin Frau Weber die Aspekte der Vertraulichkeit (u. a. das gemeinsame Gruppenkonto und die ungesicherten Zugänge) analysiert haben, richtet sich der Blick nun auf das nächste Kernschutzziel der Informationssicherheit: Integrität.
+
+Während die Spurensuche am Leitstand weitergeht, holt Frau Weber die Protokolle der Qualitätskontrolle hervor und legt sie auf den Tisch:
+
+"Dass Daten nicht nur eingesehen, sondern unbemerkt manipuliert werden können, zeigt der Vorfall an Extruder 2 überdeutlich. Eine eigenmächtige Rezepturänderung von 4,5 % auf 14,5 % beim Additiv REC-Poly-3 – ohne Freigabe im Labor-ERP – hat mal eben 8 Tonnen Granulat vernichtet. Dazu kommt der fremde USB-Stick mit dem unklaren Update und das geteilte Gruppenkonto, bei dem niemand nachvollziehen kann, wer welche Eingabe getätigt hat. Integrität bedeutet für uns: Unversehrtheit, Richtigkeit und Verlässlichkeit von Daten und Systemen. Wir müssen jetzt klären: Wie stellen wir sicher, dass Daten und Konfigurationen manipulationssicher bleiben und Änderungen lückenlos nachvollziehbar sind?"
 
  <figure style="max-width: 100%; margin: 1em 0; text-align: center;"> 
  	 <img src="bilder/02_integritaet.png" alt="Integrität sicherstellen" style="width: 100%; height: auto; border-radius: 6px;"> 
@@ -622,8 +627,293 @@ Das Ziel einer gelebten Sicherheitskultur ist es, Fehler nicht zu bestrafen, son
  
 ---
 
+### Arbeitsauftrag A|2.9: Die Bedeutung des Schutzziels Integrität
+
+Nach dem Vorfall an Extruder 2 bei der RECPLAST GmbH (eigenmächtige Rezepturänderung von 4,5 % auf 14,5 % beim Additiv REC-Poly-3, unbemerkt vernichtete 8 Tonnen Granulat sowie unklare Datenherkunft durch geteilte Gruppenkonten) stehen Sie vor der Aufgabe, das grundlegende Schutzziel der Integrität systematisch zu durchdringen.
+
+#### Aufgabe 1
+
+Informieren Sie sich über das Schutzziel der Integrität in M|2.9.0: Deep Dive – Schutzziel Integrität und beschreiben Sie dieses mit eigenen Worten. Unterscheiden Sie dabei direkt die drei Kernaspekte (Unversehrtheit, Verlässlichkeit, Verbindlichkeit).
+
+#### Aufgabe 2
+
+An welchen Stellen wurde das Schutzziel der Integrität bei der RECPLAST GmbH verletzt?
+
+#### Aufgabe 3
+
+Welche schwerwiegenden Konsequenzen drohen der RECPLAST GmbH, wenn die Integrität von Maschinenparametern, Software und Protokollen nicht gewährleistet ist? Ordnen Sie Ihre Ergebnisse in folgende Kategorien ein:
+
+- Wirtschaftliche Folgen
+- Sicherheits- und Qualitätsrisiken
+- Rechtliche und organisatorische Folgen
+
+---
+
+### Material M|2.9.0: Deep Dive - Schutzziel Integrität
+
+Neben der Vertraulichkeit bildet die Integrität eine der wesentlichen Säulen der Informationssicherheit. Während es bei der Vertraulichkeit darum geht, wer Zugriff auf Informationen hat, dreht sich bei der Integrität alles darum, ob die Informationen überhaupt noch stimmen.
+
+#### Was bedeutet Integrität in der IT?
+
+Im Kern beschreibt Integrität die Unversehrtheit, Richtigkeit und Verlässlichkeit von Daten, Programmen und Systemkonfigurationen. Ein System gilt dann als integritätsgewahrt, wenn sichergestellt ist, dass:
+
+- Daten nicht unbemerkt verändert wurden: Weder während der Speicherung noch während der Übertragung dürfen Inhalte manipuliert, ergänzt oder gelöscht worden sein.
+- Programme und Steuerungen verlässlich arbeiten: Software, Firmware oder maschinelle Steuerbefehle müssen exakt das tun, was von ihnen erwartet wird, ohne unerwünschte oder fremdgesteuerte Programmcodes auszuführen.
+- Handlungen nachvollziehbar sind: Es muss jederzeit fälschungssicher feststellbar sein, wer eine Änderung vorgenommen hat (Verbindlichkeit).
+
+#### Integrität in der Praxis: Warum Manipulationen weitreichende Folgen haben
+
+Besonders in vernetzten Industrie- und Verwaltungsumgebungen kann der Verlust der Integrität gravierende Kettenreaktionen auslösen. Wenn beispielsweise Steuerungsdaten von Produktionsanlagen oder Rezepturen in einer Fabrik unbemerkt verändert werden, führt das oft nicht nur zu Datenfehlern, sondern direkt zu physikalischem Ausschuss, beschädigten Maschinen oder gefährlichen Betriebszuständen.
+
+Ebenso stellt sich die Frage der Integrität bei Software-Updates oder Konfigurationsänderungen. Gelangen ungeprüfte Dateien über externe Datenträger oder unsichere Netzwerke in ein System, ist die Vertrauenswürdigkeit des gesamten Systems gefährdet. Geteilte Benutzerkonten verstärken dieses Problem zusätzlich, da sie jegliche individuelle Zurechenbarkeit von Eingaben verhindern – es lässt sich im Nachhinein schlicht nicht mehr klären, ob ein Fehler menschliches Versehen, ein technischer Defekt oder eine bewusste Manipulation war.
+
+#### Herausforderungen für die Praxis
+
+Unternehmen stehen vor der ständigen Aufgabe, technische und organisatorische Barrieren zu errichten, die unbemerkte Eingriffe unmöglich machen. Dazu gehört, genau zu überwachen, wer Daten verändern darf, wie Änderungen protokolliert werden und ob eingespielte Updates tatsächlich aus einer vertrauenswürdigen Quelle stammen. Gelingt dies nicht, verliert das Unternehmen die Kontrolle über die Richtigkeit seiner eigenen Geschäftsprozesse.
+
+---
+
+### Arbeitsauftrag A|2.10: Änderungskontrolle und Logging nutzen
+
+Bei der RECPLAST GmbH hat sich gezeigt, dass Änderungen an den Rezepturen (wie bei Extruder 2) unbemerkt und ohne Dokumentation erfolgen konnten. Zudem arbeitet das Bedienpersonal an den Terminals mit einem gemeinsamen Gruppenkonto (betrieb_halle2). Um künftig Manipulationen und Fehler lückenlos aufdecken zu können, sind funktionierende Mechanismen zur Änderungskontrolle (Change Control) und ein lückenloses Logging & Auditing unumgänglich.
+
+Informieren Sie sich im M|2.10.0: Änderungskontrolle und Logging.
+
+#### Aufgabe 1
+
+Welche Voraussetzungen müssen geschaffen werden, damit jede Eingabe am Leitstand eindeutig einer konkreten Person zugeordnet werden kann (Prinzip der Nicht-Abstreitbarkeit)?
+
+#### Aufgabe 2
+
+Was versteht man unter einem Audit-Trail (Revisionsprotokoll) in industriellen Steuerungs- und ERP-Systemen?
+
+#### Aufgabe 3
+
+Warum ist es wichtig, dass Logdaten manipulationssicher (z. B. durch Auslagerung auf einen zentralen, schreibgeschützten Syslog-Server) gespeichert werden?
+
+#### Aufgabe 4
+
+Entwerfen Sie für die RECPLAST GmbH einen groben Prozess, wie künftig mit Änderungen an produktionsrelevanten Daten (wie Rezepturen im Labor-ERP) umgegangen werden muss. Wie werden Änderungen dokumentiert? Beschreiben Sie den Weg von der Idee/Anforderung bis zur Übertragung an die Maschine.
+
+---
+
+### Material M|2.10.0: Änderungskontrolle und Logging
+
+Wenn Daten oder Systemkonfigurationen verändert werden, reicht es für die Sicherheit nicht aus, dies einfach nur zu erlauben oder zu verbieten. Um die Integrität dauerhaft zu wahren, muss ein Unternehmen nachvollziehen können, wer wann welche Änderung vorgenommen hat und ob diese überhaupt autorisiert war. Hier greifen die beiden zentralen Werkzeuge: Änderungskontrolle (Change Control) und Logging.
+
+#### Das Problem der Anonymität: Warum Gruppenkonten die Integrität gefährden
+
+In vielen Arbeitsumgebungen – insbesondere in der Produktion oder an Maschinenleitsänden – werden aus Bequemlichkeit oft gemeinsame Benutzerkonten (Gruppenkonten) verwendet. Das führt jedoch zu einem massiven Sicherheitsproblem: Wenn sich mehrere Personen denselben Benutzernamen und dasselbe Passwort teilen, ist jede Handlung völlig anonym.
+
+Tritt ein Fehler auf oder werden Parameter unbefugt verändert, lässt sich im Nachhinein nicht mehr feststellen, wer am Terminal saß. Das Prinzip der Verbindlichkeit (Nicht-Abstreitbarkeit) wird dadurch komplett ausgehebelt. Für eine funktionierende Integrität sind daher personalisierte Zugänge und eine eindeutige Authentifizierung zwingend erforderlich.
+
+#### Lückenlose Protokollierung (Logging und Audit-Trails)
+
+Damit Änderungen nicht im Verborgenen bleiben, zeichnen moderne Systeme alle sicherheitsrelevanten Ereignisse in sogenannten Logdateien oder Audit-Trails auf. Ein guter Audit-Trail funktioniert wie ein digitales Fahrtenbuch und dokumentiert typischerweise:
+
+- Den genauen Zeitstempel (Datum und Uhrzeit).
+- Die eindeutige Benutzer-ID der handelnden Person.
+- Die Art der Aktion (z. B. Erstellen, Ändern oder Löschen eines Datensatzes).
+- Den genauen Vorher- und Nachher-Wert (z. B. welche Rezepturparameter konkret verändert wurden).
+
+Damit diese Protokolle ihren Zweck erfüllen, müssen sie manipulationssicher gespeichert werden – etwa auf einem separaten, gegen nachträgliche Änderungen geschützten Server. Werden Logs auf demselben System gespeichert, das ein Angreifer oder Täter kompromittiert, besteht die Gefahr, dass die Spuren im Nachhinein einfach gelöscht oder umgeschrieben werden.
+
+#### Kontrollierte Prozesse durch Change Management
+
+Technische Protokolle allein reichen jedoch nicht aus; sie müssen durch organisatorische Abläufe ergänzt werden – das sogenannte Change Management.
+
+In einer sicheren IT- und Produktionsumgebung dürfen wichtige Änderungen (wie Software-Updates oder neue Maschinenrezepturen) niemals spontan oder im Alleingang durchgeführt werden. Stattdessen durchlaufen sie einen festgelegten Prozess:
+
+- Antragstellung: Eine Änderung wird formal beantragt und begründet.
+- Prüfung & Freigabe: Fachkundige Stellen prüfen die Änderung (oft nach dem Vier-Augen-Prinzip), um Fehler oder Sabotage auszuschließen.
+- Dokumentation & Test: Die Änderung wird protokolliert und idealerweise vor dem Echtbetrieb getestet.
+- Ausführung: Erst nach offizieller Freigabe wird die Änderung in das System eingepflegt.
+
+Durch das Zusammenspiel aus personengebundenen Konten, lückenhaftem Logging und geregelten Änderungsprozessen behält ein Unternehmen die volle Kontrolle über die Integrität seiner Systeme.
+
+---
+
+### Arbeitsauftrag A|2.11: Integritätsprüfung und Kryptografie einsetzen
+
+In industriellen Umgebungen ist blindes Vertrauen in mitgebrachte Datenträger ein enormes Sicherheitsrisiko. Um zu verhindern, dass manipulierte Software oder schadhafter Code in Steuerungssysteme gelangt, müssen IT-Systeme kryptografische Prüfmechanismen wie Hashes und Code Signing einsetzen.
+
+#### Aufgabe 1
+
+Der Vorfall: Ein Schichtleiter meinte, der USB-Stick mit dem Update liege schon ein paar Tage herum und der Servicetechniker habe ihn „kurz eingesteckt“. Erklären Sie aus Sicht der Informationssicherheit, warum dieses Vorgehen brandgefährlich für die Integrität der Anlage ist.
+
+#### Aufgabe 2
+
+Welche technischen Schutzmechanismen müssten an den Leitstands-PCs aktiv sein, um das unautorisierte Einstecken von USB-Medien oder das Ausführen fremder Dateien technisch zu unterbinden?
+
+#### Aufgabe 3
+
+Was versteht man unter einer kryptografischen Hash-Funktion (z. B. SHA-256) und welche zentralen Eigenschaften besitzt sie (Einwegfunktion, Kollisionsresistenz)? Informieren Sie sich im M|2.11.0: Prüfsummen (Hashes).
+
+#### Aufgabe 4
+
+Angenommen, im Update auf dem USB-Stick wurde auch nur ein einziges Byte im Programmcode manipuliert. Was passiert mit dem berechneten Hash-Wert der Datei?
+
+#### Aufgabe 5
+
+Wie kann der Hersteller einer Software oder Firmware (oder die interne IT von RECPLAST) Hash-Werte nutzen, um sicherzustellen, dass eine heruntergeladene oder angelieferte Datei während des Transports nicht verändert wurde?
+
+#### Aufgabe 6
+
+Ein Hash-Wert allein beweist nur, dass eine Datei unverändert ist – er sagt jedoch nichts darüber aus, wer sie erstellt hat (Authentizität). Hier kommt Code Signing ins Spiel. Informieren Sie sich im M|2.11.1: Code Signing.
+
+#### Aufgabenteil 6a
+
+Erklären Sie das Prinzip des Code Signings mithilfe asymmetrischer Kryptografie.
+
+#### Aufgabenteil 6b
+
+Wie hätte das Einspielen des Updates von Extruder 4 verhindert werden müssen, wenn ein strenges Code-Signing-Konzept im Unternehmen aktiv gewesen wäre? (Was würde das Leitstand-System tun, wenn es auf den USB-Stick zugreift?)
+
+---
+
+### Material M|2.11.0: Prüfsummen (Hashes)
+
+Wenn Software-Updates, Firmware-Dateien oder wichtige Dokumente übertragen werden, stellt sich immer dieselbe Frage: Wurden die Daten auf dem Weg manipuliert oder beschädigt? Um die Integrität von Dateien zu garantieren, nutzt die IT mathematische Werkzeuge – die sogenannten Hash-Funktionen.
+
+#### Was ist ein Hash (eine kryptografische Prüfsumme)?
+
+Eine Hash-Funktion ist ein mathematischer Algorithmus, der eine Datei beliebiger Größe (egal ob ein einzelnes Textdokument oder ein riesiges Anlagen-Update) einliest und daraus eine feste Zeichenkette von bestimmter Länge berechnet – den Hash-Wert (oft auch Prüfsumme genannt).
+
+Dieser Hash-Wert funktioniert wie ein digitaler Fingerabdruck der Datei. Er besitzt drei entscheidende Eigenschaften:
+
+- Eindeutigkeit: Jede Datei hat genau einen passenden Hash-Wert.
+- Der Lawineneffekt: Verändert man in der Ausgangsdatei auch nur ein einziges Zeichen, einen einzigen Buchstaben oder ein einziges Byte, sieht der daraus berechnete Hash-Wert komplett anders aus.
+- Einwegfunktion: Aus dem Hash-Wert lässt sich niemals die ursprüngliche Datei rekonstruieren.
+
+#### Beispiel aus dem Alltag: Der Datei-Download
+
+Stellen Sie sich vor, Sie laden ein großes Service-Pack für Ihre Industriesteuerung aus dem Internet herunter. Der Hersteller gibt auf seiner Website den offiziellen SHA-256-Hash-Wert an:
+`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+
+Bevor Sie das Update installieren, berechnet Ihr Computer den Hash-Wert der heruntergeladenen Datei. Stimmen die Zeichenkette Ihres Computers exakt mit der des Herstellers überein, wissen Sie zu 100 %, dass die Datei unbeschädigt und unmanipuliert auf Ihrem Rechner angekommen ist. Weicht auch nur ein einziges Zeichen ab, bricht das System die Installation ab, weil ein Integritätsbruch vorliegt.
+
+#### Das Problem mit Passwörtern und die Lösung: "Salzen" (Salt)
+
+Hashes werden nicht nur für Dateien, sondern vor allem für die sichere Speicherung von Passwörtern in Datenbanken genutzt. Ein System speichert niemals das echte Passwort im Klartext, sondern nur dessen Hash-Wert. Gibt ein Nutzer sein Passwort ein, wird es gehasht und das System prüft, ob die Hashes übereinstimmen.
+
+Dabei gab es früher ein großes Problem: Hacker nutzten sogenannte Rainbow Tables (große vorgefertigte Tabellen, in denen Millionen von Klartext-Passwörtern und deren Hashes gespeichert sind), um gehackte Passwort-Hashes blitzschnell im Klartext zu erraten.
+
+Um diesen Angriffen einen Strich durch die Rechnung zu machen, fügt man dem Passwort vor dem Hashen einen zufälligen, einzigartigen Zeichenblock hinzu – den Salt.
+
+- Ohne Salt: Das Passwort `geheim123` ergibt immer denselben Hash-Wert. Hat ein Angreifer diesen Hash, kennt er die Lösung für alle Nutzer, die dieses Passwort verwenden.
+- Mit Salt: Dem Passwort wird ein zufälliger Wert (z.B. `x7T9!`) vorangestellt: `x7T9!geheim123`. Selbst wenn zwei Nutzer exakt dasselbe Passwort geheim123 wählen, sorgt der individuelle Salt dafür, dass völlig unterschiedliche Hash-Werte in der Datenbank landen.
+
+#### Wie wird der Salt gespeichert?
+
+Der individuelle Salt wird zusammen mit dem Hash-Wert des Passworts im Klartext in der Benutzerdatenbank (oder der Passwort-Tabelle) gespeichert.Das sieht in einer Datenbanktabelle meist so aus:
+
+| Benutzer | Eingetragener Salt (im Klartext) | Gespeicherter Hash-Wert (Password + Salt) |
+| :--- | :---: | :---: |
+|Max | `x7T9!` | `8f4b2c...` |
+|Anna | `m2K1$` | `3a9e7d...` |
+
+Wenn ein Angreifer Zugriff auf die Datenbank erlangt, sieht er den Salt von Max (`x7T9!`) und den Salt von Anna (`m2K1$`) im vollkommen unverschlüsselten Klartext.
+
+Das ist aber kein Sicherheitsfehler, sondern vom System so einkalkuliert. Um zu verstehen, warum der Salt trotzdem extrem wirksam schützt, muss man sich ansehen, wie ein Angreifer Passwörter knackt:
+
+- Der Angriff ohne Salt (mit Rainbow Tables): Ein Hacker klaut die Datenbank. Da er keine Passwörter im Klartext hat, muss er raten. Er nimmt eine riesige vorberechnete Tabelle (Rainbow Table) mit Milliarden von gängigen Passwörtern und deren fertigen Hashes. Er muss in dieser Tabelle nur nach dem geklauten Hash-Wert suchen. Das dauert Bruchteile von Sekunden – selbst für Millionen von Usern gleichzeitig, weil man die Tabelle universell für diesen Hash-Algorithmus nutzen kann.
+- Der Angriff mit individuellen Salts: Wenn jede Zeile in der Datenbank einen anderen zufälligen Salt hat, nützt dem Hacker seine universelle Rainbow Table überhaupt nichts mehr. Selbst wenn er den Salt (x7T9!) in der Datenbank abliest, kann er die fertige Tabelle nicht mehr verwenden. Er müsste für jeden einzelnen Benutzer in der Datenbank die Rainbow Table komplett neu berechnen (unter Einbeziehung des jeweiligen Salts) oder für jeden Versuch das Passwort mühsam einzeln per Brute-Force durchprobieren.
+
+---
+
+### Material M|2.11.1: Code Signing
+
+Ein kryptografischer Hash (wie wir ihn von Prüfsummen kennen) ist wie ein digitaler Fingerabdruck. Er beweist zwar, dass eine Datei unversehrt ist – aber er hat einen entscheidenden Haken: Er beweist nicht, wer die Datei geschrieben hat.
+
+Stellen Sie sich vor, ein Angreifer manipuliert eine Software, berechnet für seine veränderte (schädliche) Version einen neuen Hash-Wert und veröffentlicht diesen im Internet. Wenn Sie nun das Update herunterladen und den Hash-Wert prüfen, stimmt er überein – weil Sie ja den Hash der manipulierten Datei mit der manipulierten Datei vergleichen. Ihnen fehlt die Gewissheit, ob die Datei wirklich vom legitimen Hersteller stammt.
+Das Prinzip des Code Signings (Asymmetrische Kryptografie)
+
+Hier schließt Code Signing die Lücke. Es verbindet Integrität mit Authentizität (Echtheitsnachweis) und Nicht-Abstreitbarkeit, indem es auf asymmetrische Verschlüsselung setzt. Dabei nutzt der Software-Hersteller ein echtes Schlüsselpaar:
+
+- Der Private Key (Geheimer Schlüssel): Dieser Schlüssel liegt streng geschützt beim Software-Hersteller (oder in einem Hardware Security Module wie ein USB-Krypto-Stick oder ein TPM-Chip). Nur mit diesem Schlüssel kann der Hersteller eine digitale Signatur für den Programmcode erzeugen.
+- Der Public Key (Öffentlicher Schlüssel): Dieser Schlüssel ist weltweit frei verfügbar und oft fest in Betriebssystemen, Browsern oder Maschinensteuerungen einprogrammiert.
+
+#### Der Ablauf in der Praxis:
+
+- Beim Hersteller (Signieren): Der Hersteller nimmt die fertige Software-Datei, erstellt davon einen Hash-Wert und verschlüsselt diesen Hash-Wert mit seinem Private Key. Das Ergebnis ist die digitale Signatur, die fest an die Software angehängt wird.
+- Beim Endgerät / in der Anlage (Verifizieren): Bevor das Gerät das Update installiert, prüft es die Signatur mithilfe des Public Key. Das System entschlüsselt die Signatur und vergleicht den herausgerechneten Hash mit dem tatsächlichen Hash der Datei.
+
+#### Was passiert, wenn etwas nicht stimmt?
+
+Das System führt beim Code Signing zwei automatische Kontrollen durch:
+
+- Stimmt die Identität? Wenn die Signatur nicht mit dem hinterlegten Public Key des echten Herstellers übereinstimmt, war der Urheber ein Fremder. Das System schlägt Alarm.
+- Wurde etwas verändert (Integrität)? Selbst wenn die Signatur vom echten Hersteller stammt, aber ein Angreifer auch nur ein einziges Byte im Programmcode verändert hat, passt der Hash-Wert nicht mehr zur Signatur.
+
+---
+
+### Arbeitsauftrag A|2.12: Prozesse des Changemenagements realisieren
+
+Bei der RECPLAST GmbH haben unkoordinierte Eingriffe gravierende Spuren hinterlassen: Die eigenmächtige Rezepturänderung an Extruder 2 und der blind eingesteckte USB-Stick mit dem Update für Extruder 4 zeigen, dass Änderungen bislang "ad hoc", unkontrolliert und ohne Freigabe durchgeführt wurden. In modernen Produktions- und IT-Umgebungen (Operational Technology / IT) führt dieses "Wild-Wandern" unweigerlich zu Sicherheitslücken, Ausschuss und Produktionsstillständen. Um die Integrität dauerhaft zu sichern, muss ein professionelles Änderungsmanagement (Change Management) etabliert werden.
+
+#### Aufgabe 1
+
+Welchen Konflikt gibt es im Alltag zwischen der Flexibilität der Produktion ("Der Techniker muss schnell handeln können") und der Sicherheit durch Change Management?
+
+#### Aufgabe 2
+
+Entwerfen Sie für die RECPLAST GmbH einen strukturierten Prozess (Lifecycle) für zukünftige Änderungen an Rezepturen und Steuerungssoftware. Beschreiben Sie die folgenden Schritte:
+
+1. Change Request (Antrag): Wer stellt den Antrag und welche Informationen müssen zwingend enthalten sein?
+2. Review & Freigabe (Prüfung): Wer muss den Antrag prüfen und freigeben?
+3. Test & Vorbereitung: Warum sollte eine Änderung vor dem echten Betrieb in einer Testumgebung (Staging) validiert werden?
+4. Implementierung & Dokumentation: Wie wird die Änderung durchgeführt und wo wird sie revisionssicher protokolliert?
+
+#### Aufgabe 3
+
+Wie kann ein beschleunigter Prozess für Notfall-Änderungen (Emergency Changes) aussehen, der einerseits schnell reagiert, aber andererseits Missbrauch verhindert?
+
+#### Aufgabe 4
+
+Welche Rolle spielen nachträgliche Audits (Review nach dem Notfalleinsatz)?
+
+---
+
+### Material M|2.12.0: Change Management
+
+Technische Schutzmaßnahmen wie Passwörter, Hashes oder USB-Sperren sind wirkungslos, wenn die Menschen, die mit den Systemen arbeiten, Änderungen unkontrolliert, spontan oder im Alleingang durchführen. Ohne einen festen organisatorischen Rahmen entsteht ein enormes Sicherheitsrisiko.
+
+Hier greift das Change Management (Änderungsmanagement) als disziplinierter Prozess zur Steuerung aller Anpassungen in IT- und Produktionsumgebungen.
+
+#### Was ist Change Management und warum wird es benötigt?
+
+Unter Change Management versteht man im Bereich der IT-Sicherheit einen standardisierten, dokumentierten Ablauf für die Planung, Prüfung, Freigabe, Durchführung und Nachbereitung von Änderungen (Changes).
+
+Das Ziel ist es, den Konflikt zwischen zwei Gegensätzen zu lösen:
+
+- Produktionsdruck: Techniker und Schichtleiter wollen schnell auf Probleme reagieren, Maschinen anpassen oder Updates einspielen, um Stillstände zu vermeiden.
+- Sicherheit und Integrität: Jede unüberlegte Änderung birgt das Risiko von Fehlern, Datenverlust, Sabotage oder Produktionsausschuss.
+
+Ein professioneller Change-Prozess sorgt dafür, dass Änderungen nicht verhindert, sondern kontrolliert und sicher gemacht werden.
+
+#### Der klassische Change-Management-Lifecycle
+
+Damit eine Änderung (z. B. eine neue Rezeptur im Labor-ERP oder ein Firmware-Update für eine SPS) fehlerfrei und nachvollziehbar umgesetzt wird, durchläuft sie in der Regel vier Phasen:
+
+1. Der Change Request (Antragstellung): Niemand ändert einfach so etwas. Jede Anpassung beginnt mit einem formalen Antrag. Darin wird präzise beschrieben: Was soll geändert werden, warum ist das notwendig, welche Systeme sind betroffen und welches Risiko besteht bei einem Fehlschlag?
+2. Review und Freigabe (Prüfung): Der Antrag wird von zuständigen Stellen (z. B. Laborleitung, IT-Sicherheit/CISO oder dem Change Advisory Board) geprüft. Hier gilt häufig das Vier-Augen-Prinzip: Eine zweite Person kontrolliert den Plan, bevor er genehmigt wird. Damit wird verhindert, dass Fehler oder Manipulationen unentdeckt bleiben.
+3. Test und Validierung: Bevor eine neue Software oder eine veränderte Rezeptur auf die echten Produktionsanlagen losgelassen wird, erfolgt ein Test in einer isolierten Testumgebung (Staging), um unerwartete Nebenwirkungen auszuschließen.
+4. Implementierung und Dokumentation: Nach erfolgreicher Freigabe und Testphase wird die Änderung zum geplanten Zeitpunkt durchgeführt und lückenlos im System protokolliert (Audit-Trail).
+
+#### Der Notfall-Change (Emergency Change)
+
+In einer Fabrik wie bei der RECPLAST GmbH kann es vorkommen, dass ein akuter Fehler auftritt, der sofort behoben werden muss, um einen teuren Stillstand (wie den drohenden Ausfallschaden von 12.000 € pro Stunde) abzuwenden. Für solche Situationen gibt es den Emergency Change:
+
+- Der normale, langwierige Freigabeprozess wird temporär verkürzt, indem beispielsweise telefonisch oder über eine Notfall-Schleife der Betriebskontrolleur und der CISO parallel informiert werden.
+- Die goldene Regel: Auch ein Notfall entbindet niemals von der Dokumentation. Sobald die Krise abgewendet ist, muss die Notfall-Änderung innerhalb kurzer Zeit formal nachgeprüft und im System lückenlos dokumentiert werden (Post-Implementation Review).
+
+---
+
 ## Kompetenz 2.3: Verfügbarkeit sicherstellen
 
+Nur wenige Meter weiter steht Extruder 4 in Werkhalle 2 still. Der Blick auf die Produktionsuhr und den ausfallenden Haupt-Switch treibt die Kosten pro Stunde rasant nach oben. Frau Weber blickt ernst auf die betroffene Anlage:
+
+"12.000 Euro Ausfallschaden pro Stunde – und das nur, weil ein einfaches Netzteil am Hallenverteiler ausgefallen ist und weder ein redundantes Netzteil noch eine USV eingeplant war. Verfügbarkeit heißt für uns, dass IT-Systeme, Netzwerke und Maschinen dann einsatzbereit sein müssen, wenn sie gebraucht werden. Ein einzelner ausgefallener Netzstecker oder ein fehlendes Ersatzteil darf nicht gleich die gesamte Produktion lahmlegen. Lassen Sie uns erarbeiten: Mit welchen technischen Redundanzen und organisatorischen Vorkehrungen sichern wir die Hochverfügbarkeit unserer kritischen Industrie-4.0-Anlagen ab?"
 
  <figure style="max-width: 100%; margin: 1em 0; text-align: center;"> 
  	 <img src="bilder/02_verfuegbarkeit.png" alt="Verfügbarkeit sicherstellen" style="width: 100%; height: auto; border-radius: 6px;"> 
@@ -631,6 +921,20 @@ Das Ziel einer gelebten Sicherheitskultur ist es, Fehler nicht zu bestrafen, son
  	 	 Abb.: Verfügbarkeit sicherstellen <span style="font-style: normal; opacity: 0.8;">(🤖 KI-generiert)</span> 
  	 </figcaption> 
  </figure> 
+
+---
+
+### Arbeitsauftrag A|2.13: Möglichkeiten zur Erhöhung der Verfügbarkeit beschreiben
+
+### Arbeitsauftrag A|2.14: Stromabsicherung planen
+
+### Arbeitsauftrag A|2.15: Monitoring und Frühwarnsysteme nutzen
+
+### Arbeitsauftrag A|2.16: Backups planen
+
+### Arbeitsauftrag A|2.17: Notfall- und Widerherstellungspläne einrichten
+
+---
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"

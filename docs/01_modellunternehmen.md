@@ -7,13 +7,13 @@ In diesem Kapitel ...
 - ... wird das Modellunternehmen, für das Sie im Lernfeld 4 arbeiten, vorgestellt.
 - ... finden Sie erste Informationen zum Kunden des Modellunternehmens
 
-## Die ChangeIT GmbH kennenlernen
+## ChangeIT GmbH kennenlernen
 
 Das IT-Systemhaus ChangeIT GmbH ist seit mehreren Jahren auf dem IT-Markt etabliert und behauptet sich dort aktuell sehr erfolgreich gegen mehrere Wettbewerber. Herr Sinter hat das Unternehmen 1997 gegründet und führt es seither alleine als eingetragener Kaufmann.
 
 ![Logo ChangeIT](bilder/01_changeITLogo.jpg)
 
-## Die RECPLAST GmbH kennenlernen
+## RECPLAST GmbH kennenlernen
 
 Die RECPLAST GmbH produziert und vertreibt etwa 400 unterschiedliche, aus Recyclingmaterialien
 gefertigte Kunststoffprodukte, zum Beispiel Bauelemente wie Rund- und Brettprofile, Zäune,
