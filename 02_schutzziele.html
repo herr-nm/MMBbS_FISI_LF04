@@ -1,0 +1,4145 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://herr-nm.github.io/MMBbS_FISI_LF04/02_schutzziele.html">
+      
+      
+        <link rel="prev" href="01_modellunternehmen.html">
+      
+      
+        <link rel="next" href="03_schutzbedarfsanalyse_planen.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="bilder/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Kapitel 02 - Schutzziele der Informationssicherheit sicherstellen - FISI Lernfeld 4</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#kapitel-2-schutzziele-der-informationssicherheit-sicherstellen" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="index.html" title="FISI Lernfeld 4" class="md-header__button md-logo" aria-label="FISI Lernfeld 4" data-md-component="logo">
+      
+  <img src="bilder/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FISI Lernfeld 4
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Kapitel 02 - Schutzziele der Informationssicherheit sicherstellen
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/herr-nm/MMBbS_FISI_LF04/" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="FISI Lernfeld 4" class="md-nav__button md-logo" aria-label="FISI Lernfeld 4" data-md-component="logo">
+      
+  <img src="bilder/logo.png" alt="logo">
+
+    </a>
+    FISI Lernfeld 4
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/herr-nm/MMBbS_FISI_LF04/" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Informationen zur Kurslizenz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="00_organisatorisches.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 00 - Organisatorisches
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="01_modellunternehmen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 01 - Vorstellung der Modellunternehmen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 02 - Schutzziele der Informationssicherheit sicherstellen
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="02_schutzziele.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 02 - Schutzziele der Informationssicherheit sicherstellen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#handlungssituation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Handlungssituation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-20-schutzziele-identifizieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kompetenz 2.0: Schutzziele identifizieren
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 2.0: Schutzziele identifizieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a20-cia-triade-analysieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.0: CIA-Triade analysieren
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.0: CIA-Triade analysieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m200-cia-triade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.0.0: CIA-Triade
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.0.0: CIA-Triade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vertraulichkeit-confidentiality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vertraulichkeit (Confidentiality)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integritat-integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrität (Integrity)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verfugbarkeit-availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verfügbarkeit (Availability)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-21-vertraulichkeit-sicherstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kompetenz 2.1: Vertraulichkeit sicherstellen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 2.1: Vertraulichkeit sicherstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a21-manahmen-zur-vertraulichkeit-kennenlernen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.1: Maßnahmen zur Vertraulichkeit kennenlernen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.1: Maßnahmen zur Vertraulichkeit kennenlernen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m210-deep-dive-schutzziel-vertraulichkeit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.1.0: Deep Dive – Schutzziel Vertraulichkeit
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.1.0: Deep Dive – Schutzziel Vertraulichkeit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-was-bedeutet-vertraulichkeit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Was bedeutet Vertraulichkeit?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-wie-stellen-wir-vertraulichkeit-sicher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Wie stellen wir Vertraulichkeit sicher?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Wie stellen wir Vertraulichkeit sicher?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-technische-manahmen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A. Technische Maßnahmen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-organisatorische-physische-manahmen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        B. Organisatorische &amp; Physische Maßnahmen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a22-asymmetrische-und-symmetrische-verschlusselung-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.2: Asymmetrische und Symmetrische Verschlüsselung unterscheiden
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.2: Asymmetrische und Symmetrische Verschlüsselung unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m220-symmetrische-verschlusselung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.2.0: Symmetrische Verschlüsselung
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m221-asymmetrische-verschlusselung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.2.1: Asymmetrische Verschlüsselung
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m222-hybride-verschlusselung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.2.2: Hybride Verschlüsselung
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a23-multi-faktor-authentifizierung-durchfuhren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.3: Multi-Faktor-Authentifizierung durchführen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.3: Multi-Faktor-Authentifizierung durchführen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m230-faktor-wissen-passworter-und-geheimnisse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.3.0: Faktor Wissen (Passwörter und Geheimnisse)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m231-faktor-besitz-hardware-token-totp-und-passkeys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.3.1: Faktor Besitz (Hardware-Token, TOTP und Passkeys)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m232-faktor-biometrie-inharenz-korperliche-merkmale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.3.2: Faktor Biometrie / Inhärenz (Körperliche Merkmale)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a24-benutzer-und-rechtevergabe-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.4: Benutzer und Rechtevergabe planen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.4: Benutzer und Rechtevergabe planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m240-principle-of-least-privilege" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.4.0: Principle of Least Privilege
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m241-berechtigungen-und-gruppen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.4.1: Berechtigungen und Gruppen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a25-endpoint-security-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.5: Endpoint Security planen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.5: Endpoint Security planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m250-endgerate-und-ihre-schnittstellen-absichern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.5.0: Endgeräte und ihre Schnittstellen absichern
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a26-klassifizierung-von-informationen-durchfuhren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.6: Klassifizierung von Informationen durchführen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.6: Klassifizierung von Informationen durchführen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m260-vertraulichkeitsstufen-definieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.6.0: Vertraulichkeitsstufen definieren
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a27-physische-zutrittskontrollen-einrichten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.7: Physische Zutrittskontrollen einrichten
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.7: Physische Zutrittskontrollen einrichten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m270-sicherung-von-serverraumen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.7.0: Sicherung von Serverräumen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m271-sicherung-von-arbeitsplatzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.7.1: Sicherung von Arbeitsplätzen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m272-besucher-im-unternehmen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.7.2: Besucher im Unternehmen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a28-awareness-schulungen-und-betriebsvereinbarungen-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.8: Awareness-Schulungen und Betriebsvereinbarungen nutzen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.8: Awareness-Schulungen und Betriebsvereinbarungen nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m280-betriebsvereinbarungen-und-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.8.0: Betriebsvereinbarungen und Guidelines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m281-awareness-schulungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.8.1: Awareness-Schulungen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-22-integritat-sicherstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kompetenz 2.2: Integrität sicherstellen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 2.2: Integrität sicherstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a29-die-bedeutung-des-schutzziels-integritat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.9: Die Bedeutung des Schutzziels Integrität
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.9: Die Bedeutung des Schutzziels Integrität">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m290-deep-dive-schutzziel-integritat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.9.0: Deep Dive - Schutzziel Integrität
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.9.0: Deep Dive - Schutzziel Integrität">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-bedeutet-integritat-in-der-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was bedeutet Integrität in der IT?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integritat-in-der-praxis-warum-manipulationen-weitreichende-folgen-haben" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrität in der Praxis: Warum Manipulationen weitreichende Folgen haben
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#herausforderungen-fur-die-praxis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Herausforderungen für die Praxis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a210-anderungskontrolle-und-logging-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.10: Änderungskontrolle und Logging nutzen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.10: Änderungskontrolle und Logging nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m2100-anderungskontrolle-und-logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.10.0: Änderungskontrolle und Logging
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.10.0: Änderungskontrolle und Logging">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#das-problem-der-anonymitat-warum-gruppenkonten-die-integritat-gefahrden" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Das Problem der Anonymität: Warum Gruppenkonten die Integrität gefährden
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#luckenlose-protokollierung-logging-und-audit-trails" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lückenlose Protokollierung (Logging und Audit-Trails)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kontrollierte-prozesse-durch-change-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kontrollierte Prozesse durch Change Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a211-integritatsprufung-und-kryptografie-einsetzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.11: Integritätsprüfung und Kryptografie einsetzen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.11: Integritätsprüfung und Kryptografie einsetzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-6a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 6a
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-6b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 6b
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m2110-prufsummen-hashes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.11.0: Prüfsummen (Hashes)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.11.0: Prüfsummen (Hashes)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-ein-hash-eine-kryptografische-prufsumme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was ist ein Hash (eine kryptografische Prüfsumme)?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beispiel-aus-dem-alltag-der-datei-download" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beispiel aus dem Alltag: Der Datei-Download
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#das-problem-mit-passwortern-und-die-losung-salzen-salt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Das Problem mit Passwörtern und die Lösung: "Salzen" (Salt)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wie-wird-der-salt-gespeichert" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wie wird der Salt gespeichert?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m2111-code-signing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.11.1: Code Signing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.11.1: Code Signing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#der-ablauf-in-der-praxis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Der Ablauf in der Praxis:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-passiert-wenn-etwas-nicht-stimmt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was passiert, wenn etwas nicht stimmt?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a212-prozesse-des-changemenagements-realisieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.12: Prozesse des Changemenagements realisieren
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.12: Prozesse des Changemenagements realisieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m2120-change-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.12.0: Change Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.12.0: Change Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-change-management-und-warum-wird-es-benotigt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was ist Change Management und warum wird es benötigt?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#der-klassische-change-management-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Der klassische Change-Management-Lifecycle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#der-notfall-change-emergency-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Der Notfall-Change (Emergency Change)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-23-verfugbarkeit-sicherstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kompetenz 2.3: Verfügbarkeit sicherstellen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 2.3: Verfügbarkeit sicherstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a213-moglichkeiten-zur-erhohung-der-verfugbarkeit-beschreiben" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.13: Möglichkeiten zur Erhöhung der Verfügbarkeit beschreiben
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a214-stromabsicherung-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.14: Stromabsicherung planen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a215-monitoring-und-fruhwarnsysteme-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.15: Monitoring und Frühwarnsysteme nutzen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a216-backups-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.16: Backups planen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a217-notfall-und-widerherstellungsplane-einrichten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.17: Notfall- und Widerherstellungspläne einrichten
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="03_schutzbedarfsanalyse_planen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 03 - Schutzbedarfsanalyse planen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="04_bedrohungen_szenarien.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 04 - Bedrohungen und Schadenszenarien einordnen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="05_schutzbedarfsanalyse_durchfuehren.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 05 - Schutzbedarfsanalyse durchführen und bewerten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#handlungssituation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Handlungssituation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-20-schutzziele-identifizieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kompetenz 2.0: Schutzziele identifizieren
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 2.0: Schutzziele identifizieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a20-cia-triade-analysieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.0: CIA-Triade analysieren
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.0: CIA-Triade analysieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m200-cia-triade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.0.0: CIA-Triade
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.0.0: CIA-Triade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vertraulichkeit-confidentiality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vertraulichkeit (Confidentiality)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integritat-integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrität (Integrity)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verfugbarkeit-availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verfügbarkeit (Availability)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-21-vertraulichkeit-sicherstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kompetenz 2.1: Vertraulichkeit sicherstellen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 2.1: Vertraulichkeit sicherstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a21-manahmen-zur-vertraulichkeit-kennenlernen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.1: Maßnahmen zur Vertraulichkeit kennenlernen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.1: Maßnahmen zur Vertraulichkeit kennenlernen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m210-deep-dive-schutzziel-vertraulichkeit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.1.0: Deep Dive – Schutzziel Vertraulichkeit
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.1.0: Deep Dive – Schutzziel Vertraulichkeit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-was-bedeutet-vertraulichkeit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Was bedeutet Vertraulichkeit?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-wie-stellen-wir-vertraulichkeit-sicher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Wie stellen wir Vertraulichkeit sicher?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Wie stellen wir Vertraulichkeit sicher?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-technische-manahmen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A. Technische Maßnahmen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-organisatorische-physische-manahmen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        B. Organisatorische &amp; Physische Maßnahmen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a22-asymmetrische-und-symmetrische-verschlusselung-unterscheiden" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.2: Asymmetrische und Symmetrische Verschlüsselung unterscheiden
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.2: Asymmetrische und Symmetrische Verschlüsselung unterscheiden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m220-symmetrische-verschlusselung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.2.0: Symmetrische Verschlüsselung
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m221-asymmetrische-verschlusselung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.2.1: Asymmetrische Verschlüsselung
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m222-hybride-verschlusselung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.2.2: Hybride Verschlüsselung
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a23-multi-faktor-authentifizierung-durchfuhren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.3: Multi-Faktor-Authentifizierung durchführen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.3: Multi-Faktor-Authentifizierung durchführen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m230-faktor-wissen-passworter-und-geheimnisse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.3.0: Faktor Wissen (Passwörter und Geheimnisse)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m231-faktor-besitz-hardware-token-totp-und-passkeys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.3.1: Faktor Besitz (Hardware-Token, TOTP und Passkeys)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m232-faktor-biometrie-inharenz-korperliche-merkmale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.3.2: Faktor Biometrie / Inhärenz (Körperliche Merkmale)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a24-benutzer-und-rechtevergabe-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.4: Benutzer und Rechtevergabe planen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.4: Benutzer und Rechtevergabe planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m240-principle-of-least-privilege" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.4.0: Principle of Least Privilege
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m241-berechtigungen-und-gruppen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.4.1: Berechtigungen und Gruppen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a25-endpoint-security-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.5: Endpoint Security planen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.5: Endpoint Security planen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m250-endgerate-und-ihre-schnittstellen-absichern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.5.0: Endgeräte und ihre Schnittstellen absichern
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a26-klassifizierung-von-informationen-durchfuhren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.6: Klassifizierung von Informationen durchführen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.6: Klassifizierung von Informationen durchführen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m260-vertraulichkeitsstufen-definieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.6.0: Vertraulichkeitsstufen definieren
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a27-physische-zutrittskontrollen-einrichten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.7: Physische Zutrittskontrollen einrichten
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.7: Physische Zutrittskontrollen einrichten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m270-sicherung-von-serverraumen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.7.0: Sicherung von Serverräumen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m271-sicherung-von-arbeitsplatzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.7.1: Sicherung von Arbeitsplätzen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m272-besucher-im-unternehmen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.7.2: Besucher im Unternehmen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a28-awareness-schulungen-und-betriebsvereinbarungen-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.8: Awareness-Schulungen und Betriebsvereinbarungen nutzen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.8: Awareness-Schulungen und Betriebsvereinbarungen nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m280-betriebsvereinbarungen-und-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.8.0: Betriebsvereinbarungen und Guidelines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m281-awareness-schulungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.8.1: Awareness-Schulungen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-22-integritat-sicherstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kompetenz 2.2: Integrität sicherstellen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 2.2: Integrität sicherstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a29-die-bedeutung-des-schutzziels-integritat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.9: Die Bedeutung des Schutzziels Integrität
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.9: Die Bedeutung des Schutzziels Integrität">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m290-deep-dive-schutzziel-integritat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.9.0: Deep Dive - Schutzziel Integrität
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.9.0: Deep Dive - Schutzziel Integrität">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-bedeutet-integritat-in-der-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was bedeutet Integrität in der IT?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integritat-in-der-praxis-warum-manipulationen-weitreichende-folgen-haben" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrität in der Praxis: Warum Manipulationen weitreichende Folgen haben
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#herausforderungen-fur-die-praxis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Herausforderungen für die Praxis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a210-anderungskontrolle-und-logging-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.10: Änderungskontrolle und Logging nutzen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.10: Änderungskontrolle und Logging nutzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m2100-anderungskontrolle-und-logging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.10.0: Änderungskontrolle und Logging
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.10.0: Änderungskontrolle und Logging">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#das-problem-der-anonymitat-warum-gruppenkonten-die-integritat-gefahrden" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Das Problem der Anonymität: Warum Gruppenkonten die Integrität gefährden
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#luckenlose-protokollierung-logging-und-audit-trails" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lückenlose Protokollierung (Logging und Audit-Trails)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kontrollierte-prozesse-durch-change-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kontrollierte Prozesse durch Change Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a211-integritatsprufung-und-kryptografie-einsetzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.11: Integritätsprüfung und Kryptografie einsetzen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.11: Integritätsprüfung und Kryptografie einsetzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-5_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-6a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 6a
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenteil-6b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabenteil 6b
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m2110-prufsummen-hashes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.11.0: Prüfsummen (Hashes)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.11.0: Prüfsummen (Hashes)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-ein-hash-eine-kryptografische-prufsumme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was ist ein Hash (eine kryptografische Prüfsumme)?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beispiel-aus-dem-alltag-der-datei-download" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beispiel aus dem Alltag: Der Datei-Download
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#das-problem-mit-passwortern-und-die-losung-salzen-salt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Das Problem mit Passwörtern und die Lösung: "Salzen" (Salt)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wie-wird-der-salt-gespeichert" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wie wird der Salt gespeichert?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m2111-code-signing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.11.1: Code Signing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.11.1: Code Signing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#der-ablauf-in-der-praxis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Der Ablauf in der Praxis:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-passiert-wenn-etwas-nicht-stimmt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was passiert, wenn etwas nicht stimmt?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a212-prozesse-des-changemenagements-realisieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.12: Prozesse des Changemenagements realisieren
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arbeitsauftrag A|2.12: Prozesse des Changemenagements realisieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-1_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-2_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-3_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabe-4_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aufgabe 4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-m2120-change-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Material M|2.12.0: Change Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Material M|2.12.0: Change Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-change-management-und-warum-wird-es-benotigt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was ist Change Management und warum wird es benötigt?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#der-klassische-change-management-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Der klassische Change-Management-Lifecycle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#der-notfall-change-emergency-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Der Notfall-Change (Emergency Change)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kompetenz-23-verfugbarkeit-sicherstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kompetenz 2.3: Verfügbarkeit sicherstellen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kompetenz 2.3: Verfügbarkeit sicherstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a213-moglichkeiten-zur-erhohung-der-verfugbarkeit-beschreiben" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.13: Möglichkeiten zur Erhöhung der Verfügbarkeit beschreiben
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a214-stromabsicherung-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.14: Stromabsicherung planen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a215-monitoring-und-fruhwarnsysteme-nutzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.15: Monitoring und Frühwarnsysteme nutzen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a216-backups-planen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.16: Backups planen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsauftrag-a217-notfall-und-widerherstellungsplane-einrichten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbeitsauftrag A|2.17: Notfall- und Widerherstellungspläne einrichten
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="kapitel-2-schutzziele-der-informationssicherheit-sicherstellen">Kapitel 2: Schutzziele der Informationssicherheit sicherstellen</h1>
+<p><img alt="Kapitelbild" src="bilder/02_kapitelbild.png" /></p>
+<p>In diesem Kapitel werden Sie ...</p>
+<ul>
+<li>... die Schutzziele der Informationssicherheit kennenlernen.</li>
+<li>... in der Vertiefung Maßnahmen zur Sicherstellung der Vertraulichkeit kennenlernen.</li>
+<li>... in der Vertiefung Maßnahmen zur Sicherstellung der Integrität kennenlernen.</li>
+<li>... in der Vertiefung Maßnahmen zur Sicherstellung der Verfügbarkeit kennenlernen.</li>
+</ul>
+<hr />
+<h2 id="handlungssituation">Handlungssituation</h2>
+<p>Am Montagmorgen um 07:30 Uhr herrscht Hektik in der IT-Abteilung der RECPLAST GmbH. Die neue, vollautomatische Extrusionsanlage 4 in Werkhalle 2 sollte heute nach dreiwöchiger Testphase offiziell in den Regelbetrieb gehen.</p>
+<p>Gegen 06:45 Uhr traten jedoch zwei gravierende Vorfälle auf:</p>
+<p><strong>1. Ausfall der Steuerung (Extruder 4):</strong></p>
+<p>Das zentrale Leitstand-Terminal meldet einen Verbindungsabbruch zur SPS-Steuerung von Extruder 4. Die Anlage steht still. Bei der ersten Fehlersuche stellt der Betriebstechniker fest, dass der Haupt-Switch im Hallenverteiler stromlos ist, weil das Netzteil ausgefallen ist. Ein redundantes Netzteil oder eine USV war für diesen Switch laut Dokumentation nicht vorgesehen. Die Produktionsleitung schätzt den Ausfallschaden derzeit auf ca. 12.000 € pro Stunde.</p>
+<p><strong>2. Unstimmigkeiten bei den Mischungsverhältnissen:</strong></p>
+<p>Parallel meldet die Qualitätskontrolle ein Problem bei Extruder 2: Die Mischungsrezeptur für die Herstellung der Recycling-Kunststoffgranulate stimmte in den letzten Nachtschicht-Protokollen nicht mit den Vorgaben des Labor-ERP-Systems überein. Der Anteil des Additivs REC-Poly-3 wurde im System von 4.5% auf 14.5% geändert. Niemand aus der Laborleitung hat diese Änderung freigegeben oder durchgeführt. Durch das falsche Mischungsverhältnis ist eine Charge von 8 Tonnen Granulat unbrauchbar geworden.</p>
+<p>Als Sie zusammen mit Ihrer Ausbilderin, Frau Weber (CISO der RECPLAST GmbH), den Vorfall im Leitstand untersuchen, fällt Ihnen ein USB-Stick auf, der am USB-Port des Leitstand-PCs steckt. Auf dem Gehäuse steht handschriftlich "Update_Extruder_v2.4". Ein Schichtleiter erklärt: "Der Stick lag Ende letzter Woche auf dem Tisch. Ein Kollege aus der Fremdfirma für die Anlagenwartung hat gemeint, da seien die neuen Kennlinien drauf, und hat ihn kurz eingesteckt."</p>
+<p>Zudem wird festgestellt, dass sich alle Techniker für die Bedienung der Terminals ein gemeinsames Gruppenkonto <code>(betrieb_halle2)</code> mit dem Passwort <code>Recplast2024!</code> teilen.</p>
+<figure style="max-width: 100%; margin: 1em 0; text-align: center;"> 
+     <img src="bilder/02_handlungssituation.png" alt="Produktionshalle im Chaos" style="width: 100%; height: auto; border-radius: 6px;"> 
+     <figcaption style="font-size: 0.85em; color: #555555; margin-top: 6px; font-style: italic;"> 
+         Abb.: Produktionshalle im Chaos <span style="font-style: normal; opacity: 0.8;">(🤖 KI-generiert)</span> 
+     </figcaption> 
+ </figure>
+
+<hr />
+<h2 id="kompetenz-20-schutzziele-identifizieren">Kompetenz 2.0: Schutzziele identifizieren</h2>
+<p>Die ChangeIT GmbH wird konsultiert und Frau Weber übergibt Ihnen die Protokolle der Vorfälle und ergänzt:</p>
+<p><em>"Das ist ein Totalschaden für unsere Prozesse. Wir müssen der Geschäftsleitung bis heute Nachmittag eine erste Analyse vorlegen. Bitte arbeiten Sie die Vorfälle systematisch auf: Welche Schutzziele wurden hier verletzt, an welchen Stellen haben unsere Maßnahmen versagt und wie verhindern wir so etwas für die Zukunft?"</em></p>
+<figure style="max-width: 100%; margin: 1em 0; text-align: center;"> 
+     <img src="bilder/02_schutzziele.png" alt="Übergabe an ChangeIT" style="width: 100%; height: auto; border-radius: 6px;"> 
+     <figcaption style="font-size: 0.85em; color: #555555; margin-top: 6px; font-style: italic;"> 
+         Abb.: Übergabe an ChangeIT <span style="font-style: normal; opacity: 0.8;">(🤖 KI-generiert)</span> 
+     </figcaption> 
+ </figure>
+
+<hr />
+<h3 id="arbeitsauftrag-a20-cia-triade-analysieren">Arbeitsauftrag A|2.0: CIA-Triade analysieren</h3>
+<h4 id="aufgabe-1">Aufgabe 1</h4>
+<p>Analysieren Sie die Vorfälle bei Extruder 2 und 4 sowie die Bedienung der Terminals. Welche Probleme sind hier aus Sicht der Informationssicherheit aufgetreten?</p>
+<h4 id="aufgabe-2">Aufgabe 2</h4>
+<p>Erstellen Sie sich eine Übersicht der Schutzziele der Informationssicherheit mithilfe des Materials M|2.0.0: CIA-Triade. Notieren Sie sich die drei übergeordneten Schutzziele auf Deutsch und Englisch. Fertigen Sie anschließend eine Liste der Thematiken an, die dem jeweiligen Bereich zuzuordnen sind.</p>
+<h4 id="aufgabe-3">Aufgabe 3</h4>
+<p>Ordnen Sie die in Aufgabe 1 identifizierten Probleme den Schutzzielen und ggf. wenn möglich den nachgeordneten Themenschwerpunkten zu.</p>
+<hr />
+<h3 id="material-m200-cia-triade">Material M|2.0.0: CIA-Triade</h3>
+<p>In einer zunehmend vernetzten Welt verarbeiten Organisationen täglich riesige Mengen sensibler Daten. Um Systeme, Prozesse und Informationen wirksam vor Bedrohungen zu schützen, bildet die sogenannte CIA-Triade das theoretische und praktische Fundament der modernen IT-Sicherheit. Das Akronym leitet sich aus den englischen Begriffen Confidentiality (Vertraulichkeit), Integrity (Integrität) und Availability (Verfügbarkeit) ab. Diese drei Schutzziele definieren die grundlegenden Anforderungen an einen sicheren Umgang mit Daten und IT-Infrastrukturen.</p>
+<h4 id="vertraulichkeit-confidentiality">Vertraulichkeit (Confidentiality)</h4>
+<p>Das Schutzziel der Vertraulichkeit stellt sicher, dass Informationen ausschließlich Personen, Systemen oder Prozessen zugänglich sind, die eine ausdrückliche Berechtigung besitzen. Unbefugte Einblicke – sei es durch externe Angreifer oder nicht autorisierte interne Mitarbeitende – müssen konsequent verhindert werden. Dies betrifft insbesondere sensible Betriebsgeheimnisse, personenbezogene Daten, Finanzkennzahlen sowie Zugangsdaten.</p>
+<p>Um Vertraulichkeit in der Praxis zu gewährleisten, kommen sowohl technische als auch organisatorische Schutzmaßnahmen zum Einsatz. Auf technischer Ebene sichern kryptografische Verfahren Daten in allen Zuständen: ob ruhend (Data at Rest), während der Übertragung (Data in Transit) oder bei der Verarbeitung (Data in Use). Ergänzt wird dies durch ein striktes Rechtemanagement nach dem Principle of Least Privilege (Minimalprinzip), rollenbasierte Zugriffskontrollen (RBAC) sowie die Pflicht zur Multi-Faktor-Authentifizierung (MFA) für alle Systemzugänge. Auf organisatorischer Seite unterstützen Vertraulichkeitsvereinbarungen (NDAs), die systematische Klassifizierung von Dokumenten (etwa in öffentlich, intern oder streng vertraulich) sowie physische Zutrittskontrollen zu Rechenzentren und Leitständen diesen Schutz.</p>
+<h4 id="integritat-integrity">Integrität (Integrity)</h4>
+<p>Während die Vertraulichkeit vor unbefugtem Lesen schützt, garantiert das Schutzziel der Integrität die Korrektheit, Vollständigkeit und Unversehrtheit von Daten und Systemfunktionen. Es stellt sicher, dass Informationen nicht unbefugt, unbeabsichtigt oder unbemerkt verändert, gelöscht oder gefälscht werden können. Dies ist essenziell für die Zuverlässigkeit von Buchhaltungsdaten, Produktionsrezepturen, Steuerungsbefehlen in Industrieanlagen sowie für die Gültigkeit von Systemkonfigurationen.</p>
+<p>Zur Sicherung der Integrität dienen kryptografische Prüfsummen (wie Hashwerte mit SHA-256) und digitale Signaturen, die jede Modifikation an Daten unverzüglich erkennbar machen. Auf Prozessebene verhindern das Vier-Augen-Prinzip bei kritischen Freigaben sowie die strikte Trennung von Entwicklungs-, Test- und Produktionsumgebungen ungewollte oder manipulierte Eingriffe. Zudem fangen automatische Plausibilitätsprüfungen in Anwendungen fehlerhafte Eingaben ab, während revisionssichere WORM-Speichermedien (Write-Once-Read-Many) und Versionierungssysteme eine lückenlose Historisierung aller Änderungen gewährleisten.</p>
+<h4 id="verfugbarkeit-availability">Verfügbarkeit (Availability)</h4>
+<p>Das dritte Schutzziel, die Verfügbarkeit, gewährleistet, dass autorisierte Nutzerinnen und Nutzer jederzeit und störungsfrei auf benötigte Daten, IT-Systeme und Dienstleistungen zugreifen können. Da ein Systemausfall ganze Geschäftsprozesse oder Produktionsstraßen vollständig lähmen kann, steht die Minimierung von ungeplanten Ausfallzeiten (Downtime) im Zentrum dieser Säule.</p>
+<p>Die technische Ausfallsicherheit wird vor allem durch Redundanz erreicht: Kritische Komponenten wie Netzteile, Festplattenverbünde (RAID), Netzwerkpfade, Server-Cluster und gesamte Rechenzentren werden mehrfach ausgelegt, um sogenannte Single Points of Failure konsequent zu vermeiden. Ergänzend sichern unterbrechungsfreie Stromversorgungen (USV), Notstromaggregate und redundante Klimaanlagen die physische Betriebsbereitschaft von Serverräumen. Gegen Datenverlust und Großschadenslagen schützen regelmäßige Datensicherungen (beispielsweise nach der bewährten 3-2-1-Regel) sowie ausgearbeitete Wiederherstellungs- und Notfallpläne (Disaster Recovery und Business Continuity Plans). Zusätzlich fangen Load Balancer und automatisierte Überlastungsschutzsysteme (DDoS-Protection) Angriffe ab, die darauf abzielen, Dienste durch gezielte Datenüberflutung außer Betrieb zu setzen.</p>
+<hr />
+<h2 id="kompetenz-21-vertraulichkeit-sicherstellen">Kompetenz 2.1: Vertraulichkeit sicherstellen</h2>
+<p>Während Sie noch am Leitstand stehen, weist Frau Weber auf den eingesteckten USB-Stick und den Notizzettel mit dem gemeinsamen Passwort: "Dass hier jeder ungehindert reinschauen und Daten abgreifen kann, ist ein untragbarer Zustand für die Vertraulichkeit unserer Daten. Lassen Sie uns diesen Bereich jetzt gründlich durchleuchten: Welche technischen und organisatorischen Möglichkeiten haben wir überhaupt, um Vertraulichkeit herzustellen, und welche davon passen zu den Abläufen hier bei RECPLAST?"</p>
+<figure style="max-width: 100%; margin: 1em 0; text-align: center;"> 
+     <img src="bilder/02_vertraulichkeit.png" alt="Alles für die Vertraulichkeit" style="width: 100%; height: auto; border-radius: 6px;"> 
+     <figcaption style="font-size: 0.85em; color: #555555; margin-top: 6px; font-style: italic;"> 
+         Abb.: Alles für die Vertraulichkeit <span style="font-style: normal; opacity: 0.8;">(🤖 KI-generiert)</span> 
+     </figcaption> 
+ </figure>
+
+<hr />
+<h3 id="arbeitsauftrag-a21-manahmen-zur-vertraulichkeit-kennenlernen">Arbeitsauftrag A|2.1: Maßnahmen zur Vertraulichkeit kennenlernen</h3>
+<h4 id="aufgabe-1_1">Aufgabe 1</h4>
+<p>Fassen Sie kurz in eigenen Worten zusammen, welches der Probleme in der RECPLAST GmbH den Bereich der Vertraulichkeit betrifft.</p>
+<h4 id="aufgabe-2_1">Aufgabe 2</h4>
+<p>Welche Maßnahmen können in einem Unternehmen ergriffen werden, um die Vertraulichkeit sicherzustellen? Informieren Sie sich in M|2.1.0: Deep Dive – Schutzziel Vertraulichkeit hierüber.</p>
+<h4 id="aufgabe-3_1">Aufgabe 3</h4>
+<p>Wählen Sie aus den Maßnahmen die am besten geeigneten  aus, um die Vertraulichkeit im Leitstand und an den Extrusionsanlagen der RECPLAST GmbH nachhaltig herzustellen.</p>
+<p>Begründen Sie Ihre Auswahl gegenüber der IT-Sicherheitsbeauftragten Frau Weber:</p>
+<ul>
+<li>Warum sind genau diese Maßnahmen für die RECPLAST GmbH verhältnismäßig und realistisch?</li>
+<li>Welche Maßnahmen aus dem Katalog würden Sie für die Fertigungshalle eher nicht empfehlen und warum?</li>
+</ul>
+<hr />
+<h3 id="material-m210-deep-dive-schutzziel-vertraulichkeit">Material M|2.1.0: Deep Dive – Schutzziel Vertraulichkeit</h3>
+<h4 id="1-was-bedeutet-vertraulichkeit">1. Was bedeutet Vertraulichkeit?</h4>
+<p>Das Schutzziel <strong>Vertraulichkeit</strong> fordert, dass Informationen, Daten und IT-Systeme <strong>ausschließlich autorisierten Personen, Prozessen oder IT-Systemen</strong> zugänglich sind. Unbefugte – egal ob externe Angreifer oder nicht-berechtigte Kolleginnen und Kollegen im eigenen Unternehmen – dürfen keinen Einblick erhalten.</p>
+<p>Ein Verlust der Vertraulichkeit liegt bereits dann vor, wenn vertrauliche Daten gelesen, kopiert oder offengelegt werden, ohne dass dabei zwangsläufig Daten verändert oder gelöscht werden müssen.</p>
+<h4 id="2-wie-stellen-wir-vertraulichkeit-sicher">2. Wie stellen wir Vertraulichkeit sicher?</h4>
+<p>Um Vertraulichkeit in einer modernen IT- und Produktionsumgebung (OT) durchzusetzen, kombinieren IT-Sicherheitsverantwortliche <strong>technische und organisatorische Maßnahmen (TOMs)</strong>.</p>
+<h5 id="a-technische-manahmen">A. Technische Maßnahmen</h5>
+<ul>
+<li><strong>Verschlüsselung (Kryptografie):</strong></li>
+<li><strong>Data in Transit (Übertragung):</strong> Verschlüsselung von Netzwerkverbindungen (z. B. via TLS/HTTPS, IPsec, SSH), damit Datenpakete auf dem Leitungsweg nicht mitgeschnitten werden können.</li>
+<li><strong>Data at Rest (Speicherung):</strong> Festplatten- und Datenbankverschlüsselung (z. B. BitLocker, LUKS, AES-256), damit Daten bei Verlust oder Diebstahl von Datenträgern unlesbar bleiben.</li>
+<li><strong>Data in Use (Verarbeitung):</strong> Schutz von Daten im Arbeitsspeicher vor unbefugtem Auslesen anderer Prozesse.</li>
+<li><strong>Identitäts- und Zugriffsmanagement (IAM):</strong></li>
+<li><strong>Personalisierte Accounts:</strong> Jede Person erhält ein individuelles Benutzerkonto. Shared Accounts (gemeinsam genutzte Konten) sind strikt verboten.</li>
+<li><strong>Starke Authentifizierung:</strong> Einsatz von Multi-Faktor-Authentifizierung (MFA/2FA) mittels Passwörtern, Hardware-Token oder Biometrie.</li>
+<li><strong>Rechtestrukturierung:</strong> Rechtevergabe nach dem <strong>Principle of Least Privilege</strong> (Minimalprinzip) über Rollen-basierte Zugriffskontrollen (RBAC). Jede/r sieht nur das, was für die tägliche Arbeit zwingend notwendig ist (<em>Need-to-know-Prinzip</em>).</li>
+<li><strong>Netzwerksegmentierung:</strong></li>
+<li>Trennung von Office-Netzen, Produktionsnetzen (OT/VLANs) und Gast-WLANs durch Firewalls, um unbefugte Datenströme zwischen den Segmenten zu blockieren.</li>
+<li><strong>Schnittstellen- und Endgeräteschutz (Endpoint Security):</strong></li>
+<li>Logische Sperrung ungenutzter Ports (z. B. USB-Ports per Group Policy oder Endpoint-Protection-Software deaktivieren).</li>
+</ul>
+<h5 id="b-organisatorische-physische-manahmen">B. Organisatorische &amp; Physische Maßnahmen</h5>
+<ul>
+<li><strong>Klassifizierung von Informationen:</strong> Einstufung von Dokumenten und Daten in Vertraulichkeitsstufen (z. B. <em>Öffentlich</em>, <em>Intern</em>, <em>Vertraulich</em>, <em>Streng vertraulich</em>) inklusive entsprechender Handhabungsvorschriften.</li>
+<li><strong>Physische Zutrittskontrollen:</strong> Sicherung von Serverräumen, Leitständen und Archiven durch Schließanlagen, RFID-Chipkarten, Biometrie und Besucherdokumentation.</li>
+<li><strong>Betriebsvereinbarungen &amp; Guidelines:</strong> Verpflichtung auf das Datengeheimnis, Sicherheitsrichtlinien zur Nutzung von Wechselmedien und Clean-Desk-Policies.</li>
+<li><strong>Awareness-Schulungen:</strong> Regelmäßige Trainings der Belegschaft gegen Social-Engineering-Angriffe (z. B. Phishing, Shoulder Surfing, Tailgating/Huckepackmitnahme).</li>
+</ul>
+<hr />
+<h3 id="arbeitsauftrag-a22-asymmetrische-und-symmetrische-verschlusselung-unterscheiden">Arbeitsauftrag A|2.2: Asymmetrische und Symmetrische Verschlüsselung unterscheiden</h3>
+<p>Frau Weber blickt auf Ihren Entwurf für die OT-Infrastruktur und nickt:</p>
+<p><em>"Ein wichtiger Punkt für die Vertraulichkeit ist die Verschlüsselung. Wir müssen künftig die Übertragung der hochsensiblen Rezepturdaten vom zentralen Labor-ERP-System zu den Leitständen in Hallenverteiler 2 absichern. Wenn hier jemand im Netzwerk mithört, liegen unsere Firmengeheimnisse offen.</em></p>
+<p><em>Ein Kollege schlägt vor, die Daten einfach mit einem Passwort per symmetrischer Verschlüsselung zu sichern. Ein anderer möchte lieber asymmetrische Verschlüsselung einsetzen, weil er meint, das wäre viel sicherer."</em></p>
+<h4 id="aufgabe-1_2">Aufgabe 1</h4>
+<p>Beschreiben Sie kurz, welche Gefahr für die Vertraulichkeit besteht, wenn das Labor-ERP-System die neuen Kunststoff-Rezepturen im Klartext an die Extrusionsanlagen sendet.</p>
+<h4 id="aufgabe-2_2">Aufgabe 2</h4>
+<p>Erläutern Sie das grundlegende Problem des Schlüsselaustauschs (Key Distribution Problem), wenn das Labor und alle 12 Leitstände in den Hallen ausschließlich ein einziges, gemeinsames symmetrisches Passwort nutzen würden.</p>
+<h4 id="aufgabe-3_2">Aufgabe 3</h4>
+<p>Informieren Sie sich in den bereitgestellten Materialien über die Funktionsweisen der Kryptografie und bearbeiten Sie folgende Punkte:</p>
+<ul>
+<li>M|2.2.0: Symmetrische Verschlüsselung: Erklären Sie in eigenen Worten das Funktionsprinzip sowie die wesentlichen Vor- und Nachteile.</li>
+<li>M|2.2.1: Asymmetrische Verschlüsselung: Erläutern Sie das Konzept des Schlüsselpaares (Public Key und Private Key). Gehen Sie darauf ein, welcher Schlüssel zum Verschlüsseln und welcher zum Entschlüsseln genutzt wird.</li>
+<li>M|2.2.2: Hybride Verschlüsselung: Stellen Sie dar, wie das hybride Verfahren die Vorteile beider Ansätze kombiniert und wo es eingesetzt wird.</li>
+</ul>
+<h4 id="aufgabe-4">Aufgabe 4</h4>
+<p>Welches Verschlüsselungsverfahren (symmetrisch, asymmetrisch oder hybrid) empfehlen Sie Frau Weber für die automatische Übertragung der Rezepturdaten über das Firmennetzwerk?</p>
+<hr />
+<h3 id="material-m220-symmetrische-verschlusselung">Material M|2.2.0: Symmetrische Verschlüsselung</h3>
+<p>Die symmetrische Verschlüsselung gehört zu den ältesten und grundlegendsten Verfahren der Kryptografie. Ihr zentrales Funktionsprinzip beruht auf der Verwendung eines einzigen, identischen Schlüssels (<em>Secret Key</em>) für sowohl die Ver- als auch die Entschlüsselung einer Nachricht. Wenn ein Klartext in einen unlesbaren Chiffretext umgewandelt werden soll, verarbeitet ein mathematischer Algorithmus die Ursprungsdaten zusammen mit diesem geheimen Schlüssel. Auf der Empfängerseite wird exakt derselbe Schlüssel benötigt, um den Chiffretext mithilfe des umgekehrten Algorithmus wieder in den ursprünglichen Klartext zurückzuverwandeln. Sender und Empfänger müssen somit zwingend über denselben Geheimtext-Schlüssel verfügen.</p>
+<p>In der modernen Informationstechnik findet die symmetrische Verschlüsselung breite Anwendung, insbesondere dort, wo große Datenmengen effizient geschützt werden müssen. Typische Einsatzbereiche sind die Festplatten- und Datenverschlüsselung im Ruhezustand (<em>Data at Rest</em>), beispielsweise durch Technologien wie BitLocker unter Windows oder LUKS unter Linux. Ebenso werden symmetrische Verfahren wie der AES-Standard (<em>Advanced Encryption Standard</em>) genutzt, um die eigentlichen Nutzdaten in gesicherten Netzwerkverbindungen (z. B. bei VPN-Tunneln via IPsec oder HTTPS-Verbindungen im Web) zu übertragen.</p>
+<p>Der größte Vorteil symmetrischer Verschlüsselungsverfahren liegt in ihrer extrem hohen Rechengeschwindigkeit und Effizienz. Da die zugrundeliegenden mathematischen Operationen vergleichsweise einfach aufgebaut sind, können selbst riesige Dateien oder kontinuierliche Datenströme in Echtzeit und ohne spürbare Verzögerung ver- und entschlüsselt werden. Zudem bieten moderne Standardverfahren wie AES bei ausreichender Schlüssellänge (z. B. 256 Bit) ein extrem hohes Sicherheitsniveau gegen Brute-Force-Angriffe.</p>
+<p>Dem steht jedoch ein gravierender Nachteil gegenüber: das sogenannte Schlüsselverteilungsproblem (<em>Key Distribution Problem</em>). Bevor zwei Parteien vertraulich miteinander kommunizieren können, muss der geheime Schlüssel über einen absolut sicheren Kanal ausgetauscht werden. Wird der Schlüssel während der Übertragung von Dritter Seite abgefangen, ist die gesamte Vertraulichkeit kompromittiert. Zudem skaliert das Verfahren in Netzwerken schlecht: Sollen viele Parteien paarweise vertraulich miteinander kommunizieren, steigt die Anzahl der benötigten geheimen Schlüssel exponentiell an, was die Schlüsselverwaltung im Betrieb enorm erschwert.</p>
+<hr />
+<h3 id="material-m221-asymmetrische-verschlusselung">Material M|2.2.1: Asymmetrische Verschlüsselung</h3>
+<p>Die asymmetrische Verschlüsselung – auch bekannt als Public-Key-Kryptografie – löst das fundamentale Problem des sicheren Schlüsselaustauschs, indem sie ein mathematisch verknüpftes Schlüsselpaar einsetzt. Dieses Paar besteht aus einem öffentlichen Schlüssel (<em>Public Key</em>) und einem privaten Schlüssel (<em>Private Key</em>). Während der öffentliche Schlüssel gefahrlos allen Kommunikationspartnern zugänglich gemacht werden darf, muss der private Schlüssel streng geheim bleiben und darf seinen Besitzer niemals verlassen. Das zentrale Funktionsprinzip lautet: Eine Nachricht, die mit einem bestimmten öffentlichen Schlüssel verschlüsselt wurde, kann ausschließlich mit dem dazugehörigen, einzigartigen privaten Schlüssel wieder entschlüsselt werden. Ein Rückschluss vom öffentlichen auf den privaten Schlüssel ist nach heutigem Stand der Technik mathematisch praktisch unmöglich.</p>
+<p>Eingesetzt wird die asymmetrische Verschlüsselung vorrangig überall dort, wo Partner ohne vorherigen sicheren Kontakt vertraulich miteinander kommunizieren müssen oder die Identität der Gegenseite nachgewiesen werden soll. Neben der reinen Datenverschlüsselung bildet sie das Fundament für digitale Signaturen (z.B. im E-Mail-Verkehr mit S/MIME oder PGP) sowie für digitale Zertifikate im Web. Wenn ein Browser eine sichere HTTPS-Verbindung zu einem Webserver aufbaut, wird die Identität des Anbieters über asymmetrische Zertifikate (Public Key Infrastructure, PKI) nachgewiesen und der erste Kontaktaufbau abgesichert.</p>
+<p>Der herausragende Vorteil dieses Verfahrens liegt in der eleganten Lösung des Schlüsselverteilungsproblems. Da der öffentliche Schlüssel überall frei verteilt werden kann, entfällt die Notwendigkeit eines geheimen Kanals für den Schlüsselaustausch. Zudem skaliert das System hervorragend: Jede Komponente im Netzwerk benötigt lediglich ihr eigenes Schlüsselpaar, um vertraulich mit beliebig vielen anderen Partnern zu kommunizieren.</p>
+<p>Hauptnachteil der asymmetrischen Verschlüsselung ist jedoch ihre sehr geringe Rechengeschwindigkeit. Die zugrundeliegenden komplexen mathematischen Operationen (wie das Faktorisieren sehr großer Primzahlen oder Berechnungen auf elliptischen Kurven) erfordern erhebliche Rechenleistung. Für das Ver- und Entschlüsseln großer Datenmengen oder kontinuierlicher Datenströme ist das Verfahren daher viel zu langsam und im Betriebsalltag unpraktikabel.</p>
+<hr />
+<h3 id="material-m222-hybride-verschlusselung">Material M|2.2.2: Hybride Verschlüsselung</h3>
+<p>Die hybride Verschlüsselung vereint die spezifischen Stärken der symmetrischen und der asymmetrischen Verschlüsselung in einem gemeinsamen Verfahren. Sie löst damit das grundlegende Dilemma der modernen Kryptografie: die Wahl zwischen der hohen Rechengeschwindigkeit symmetrischer Algorithmen und dem komfortablen, sicheren Schlüsselaustausch asymmetrischer Verfahren. Das Funktionsprinzip teilt den Verschlüsselungsprozess in zwei Schritte auf. Für die eigentliche Nachricht wird zunächst ein einmaliger, zufällig generierter symmetrischer Schlüssel erzeugt – der sogenannte Sitzungsschlüssel (<em>Session Key</em>). Die eigentlichen Nutzdaten werden mit diesem Sitzungsschlüssel extrem schnell symmetrisch verschlüsselt. Anschließend wird der Sitzungsschlüssel selbst mit dem öffentlichen Schlüssel (<em>Public Key</em>) des Empfängers asymmetrisch verschlüsselt. Beide Teile – der symmetrisch verschlüsselte Text und der asymmetrisch verschlüsselte Sitzungsschlüssel – werden zusammen an den Empfänger übertragen.</p>
+<p>Der Empfänger nutzt nach dem Empfang seinen eigenen privaten Schlüssel (<em>Private Key</em>), um den Sitzungsschlüssel zu entschlüsseln. Mit dem so gewonnenen Klartext-Sitzungsschlüssel kann er im nächsten Schritt die eigentliche Nachricht blitzschnell symmetrisch entschlüsseln. Durch diese Kombination entfällt die Notwendigkeit, vorab einen geheimen Schlüssel über einen unsicheren Kanal auszutauschen, während gleichzeitig die hohe Verarbeitungsgeschwindigkeit für große Datenmengen erhalten bleibt.</p>
+<p>In der Praxis ist die hybride Verschlüsselung der weltweite Standard für fast alle modernen Kommunikationsprotokolle. Sie bildet das Rückgrat der Transport Layer Security (TLS/SSL) bei HTTPS-Verbindungen im Internet, sichert den Datenaustausch in Virtual Private Networks (VPNs) ab und kommt bei der verschlüsselten E-Mail-Übertragung (z.B. via S/MIME oder PGP) sowie bei sicheren SSH-Verbindungen zur Serververwaltung zum Einsatz.</p>
+<p>Der entscheidende Vorteil dieses Verfahrens ist die optimale Kombination aus Effizienz und Sicherheit. Selbst riesige Datenmengen oder kontinuierliche Datenströme können ohne spürbare Performance-Einbußen geschützt werden, während das Schlüsselverteilungsproblem vollständig gelöst ist. Als einziger relativer Nachteil kann der leicht erhöhte organisatorische und technische Systemaufwand genannt werden, da beide Verschlüsselungsarten implementiert und eine geeignete Infrastruktur zur Verwaltung der öffentlichen Schlüssel (PKI) bereitgestellt werden muss.</p>
+<hr />
+<h3 id="arbeitsauftrag-a23-multi-faktor-authentifizierung-durchfuhren">Arbeitsauftrag A|2.3: Multi-Faktor-Authentifizierung durchführen</h3>
+<p>Frau Weber ruft Sie an ihren Bildschirm im IT-Büro: </p>
+<p>"Wir haben den Vorfall in Werkhalle 2 weiter analysiert. Dass sich alle Techniker das Sammelkonto betrieb_halle2 mit dem Passwort Recplast2024! teilen, war ein offenes Scheunentor für den unbefugten Zugriff. Jeder, der den Zettel am Leitstand liest, kann sich als Hallenpersonal ausgeben. Wir müssen auf individuelle Benutzerkonten umstellen. Aber ein einfaches Passwort reicht mir für den Zugriff auf die Steuerungsterminals nicht mehr aus – Passwörter werden aufgeschrieben, erraten oder weitergegeben. Wir müssen eine Multi-Faktor-Authentifizierung (MFA) einführen. Vor allem für den Schnellzugriff an den Terminals in der Fertigung und den Remote-Zugriff der externen Wartungstechniker müssen wir entscheiden, wie wir die drei Kategorien der Authentifizierung sinnvoll kombinieren."</p>
+<h4 id="aufgabe-1_3">Aufgabe 1</h4>
+<p>Erläutern Sie, warum die bisherige Authentifizierung über das alleinige Passwort <code>Recplast2024!</code> am Leitstand das Schutzziel Vertraulichkeit (sowie die Zurechenbarkeit) verletzt.</p>
+<h4 id="aufgabe-2_3">Aufgabe 2</h4>
+<p>Beschreiben Sie das fundamentale Sicherheitsrisiko, wenn sich ein Authentifizierungsverfahren ausschließlich auf den Faktor Wissen (also das Passwort wissen) stützt.</p>
+<h4 id="aufgabe-3_3">Aufgabe 3</h4>
+<p>Informieren Sie sich in den bereitgestellten Materialien über die drei Kategorien der Authentifizierung und bearbeiten Sie folgende Punkte:</p>
+<ul>
+<li>M|2.3.0: Faktor Wissen (Passwörter und Geheimnisse): Erklären Sie das Funktionsprinzip dieser Kategorie. Beschreiben Sie, welche Kriterien ein sicheres Passwort erfüllen muss und warum Hashfunktionen bei der Speicherung auf Servern eingesetzt werden.</li>
+<li>Material M|2.3.1: Faktor Besitz (Hardware-Token, TOTP und Passkeys): Erläutern Sie das Prinzip des Besitz-Nachweises. Stellen Sie die Funktionsweisen von physischen Token (z. B. RFID-Chips/Hardware-Keys) sowie den logischen Verfahren TOTP (zeitbasierte Einmalpasswörter) und Passkey (FIDO2/WebAuthn) dar.</li>
+<li>Material M|2.3.2: Faktor Biometrie / Inhärenz (Körperliche Merkmale): Erklären Sie, wie die Identifikation über körperliche Merkmale funktioniert. Nennen Sie die wesentlichen Vorteile und Risiken.</li>
+</ul>
+<h4 id="aufgabe-4_1">Aufgabe 4</h4>
+<p>Definieren Sie kurz, ab wann eine Anmeldung formal als Multi-Faktor-Authentifizierung (MFA) bzw. Zwei-Faktor-Authentifizierung (2FA) gilt.</p>
+<h4 id="aufgabe-5">Aufgabe 5</h4>
+<p>Kommen Sie zurück auf die Bedienung der Leitstände in Werkhalle 2 sowie den Remote-Zugriff der externen Wartungsfirma:</p>
+<ul>
+<li>Szenario A (Leitstand in der Fertigungshalle): Wählen Sie eine geeignete Kombination aus zwei Faktoren (aus Wissen, Besitz oder Biometrie) für die Schichtarbeiter direkt an den Extrusionsanlagen. Begründen Sie Ihre Wahl im Hinblick auf Praxistauglichkeit (z. B. Arbeiten mit Handschuhen, schnelle Anmeldung) und Sicherheit.</li>
+<li>Szenario B (Remote-Zugriff der Wartungsfirma): Welches MFA-Verfahren empfehlen Sie für den externen Fernzugriff von Wartungstechnikern der ChangeIT GmbH auf die Steuerungssysteme der RECPLAST GmbH?</li>
+</ul>
+<p>Begründen Sie Ihre Entscheidungen.</p>
+<hr />
+<h3 id="material-m230-faktor-wissen-passworter-und-geheimnisse">Material M|2.3.0: Faktor Wissen (Passwörter und Geheimnisse)</h3>
+<p>Die Authentifizierung über den Faktor Wissen ist das historisch älteste und am weitesten verbreitete Verfahren zur Identitätsprüfung in der IT. Das Grundprinzip ist simpel: Ein Benutzer beweist seine Identität gegenüber einem System, indem er eine Information angibt, die theoretisch nur ihm allein bekannt sein sollte. Die typischsten Vertreter dieser Kategorie sind Passwörter, Passphrasen, PINs (Personal Identification Numbers) oder Antworten auf Sicherheitsfragen. Da der Server die eingegebene Information mit dem hinterlegten Soll-Wert vergleicht, findet bei erfolgreicher Übereinstimmung der Zugriff statt.</p>
+<p>In der Unternehmenspraxis stellt der Faktor Wissen jedoch eine der größten Schwachstellen für die Vertraulichkeit dar. Passwörter werden von Nutzern häufig zu kurz gewählt, für mehrere Dienste wiederverwendet, auf Notizzettel geschrieben oder fallen Social-Engineering-Angriffen (wie Phishing) zum Opfer. Ein sicheres Passwort sollte daher eine ausreichende Länge (mindestens 12 bis 16 Zeichen) aufweisen und eine Kombination aus Groß- und Kleinbuchstaben, Zahlen sowie Sonderzeichen enthalten. Noch sicherer sind sogenannte Passphrasen – lange, leicht merkbare Satzkonstruktionen.</p>
+<p>Um das Risiko von gestohlenen oder erratenen Kennwörtern zu minimieren, dürfen Passwörter auf Servern niemals im Klartext gespeichert werden. Stattdessen werden sie mithilfe kryptografischer Einwegfunktionen (Hashfunktionen wie bcrypt oder Argon2) unter Beigabe eines zufälligen Werts (Salt) verarbeitet. Der größte systematische Nachteil des Faktors Wissen bleibt jedoch bestehen: Sobald eine andere Person das Geheimnis erfährt – sei es durch Blicke über die Schulter (Shoulder Surfing), Datenlecks oder Schwachstellen im System – kann sie sich ohne jegliche Hürde für den rechtmäßigen Nutzer ausgeben.</p>
+<hr />
+<h3 id="material-m231-faktor-besitz-hardware-token-totp-und-passkeys">Material M|2.3.1: Faktor Besitz (Hardware-Token, TOTP und Passkeys)</h3>
+<p>Der Faktor Besitz basiert darauf, dass der Benutzer seine Identität durch den physikalischen oder logischen Nachweis eines Gegenstandes belegt, den nur er besitzt. Das Funktionsprinzip verlangt, dass der Benutzer Zugriff auf dieses spezifische Objekt hat, um eine Authentifizierung erfolgreich abzuschließen. Klassische physische Beispiele hierfür sind RFID-Chipkarten für Schließsysteme, USB-Hardware-Token (z. B. YubiKeys) oder Chipkartenleser.</p>
+<p>In der modernen IT-Sicherheit haben sich vor allem zwei possession-basierte Verfahren etabliert:</p>
+<ul>
+<li><strong>Time-based One-time Password (TOTP):</strong> Hierbei generiert eine App auf einem registrierten Gerät (z. B. Smartphone) alle 30 bis 60 Sekunden einen neuen, einmalig gültigen 6-stelligen Code. Dies geschieht auf Basis eines gemeinsamen Geheimnisses (Shared Secret) und der exakten Uhrzeit. Der Code beweist, dass der Nutzer das registrierte Gerät aktuell besitzt.</li>
+<li><strong>Passkey:</strong> Dies ist ein hochmoderner Standard (FIDO2/WebAuthn), der das klassische Passwort vollständig ersetzt. Das Gerät des Nutzers (z. B. Smartphone, Laptop oder Security-Key) speichert einen eindeutigen privaten Schlüssel (Private Key). Bei der Anmeldung fordert der Server das Gerät auf, eine Challenge kryptografisch zu signieren. Der Nachweis erfolgt ausschließlich über den Besitz dieses kryptografischen Schlüssels auf dem physikalischen Gerät.</li>
+</ul>
+<p>Der entscheidende Vorteil des Faktors Besitz liegt in seiner Resistenz gegen reine Online-Passwort-Diebstähle oder Phishing-Angriffe (insbesondere bei FIDO2/Passkeys). Ein Angreifer, der lediglich ein Passwort kennt, kann sich ohne das physische Gerät nicht anmelden. Ein Nachteil besteht im logistischen Aufwand: Geht der Gegenstand verloren, beschädigt oder wird das Smartphone gestohlen, sind strukturierte Wiederherstellungsprozesse (Recovery-Prozesse) erforderlich, um den Nutzer nicht dauerhaft auszusperren.</p>
+<hr />
+<h3 id="material-m232-faktor-biometrie-inharenz-korperliche-merkmale">Material M|2.3.2: Faktor Biometrie / Inhärenz (Körperliche Merkmale)</h3>
+<p>Der Faktor Biometrie (auch als Inhärenz bezeichnet) nutzt unverwechselbare, körperliche oder verhaltensbedingte Eigenschaften eines Menschen zur Authentifizierung. Das zugrundeliegende Prinzip lautet: Der Benutzer weist nach, wer er ist. Da biometrische Merkmale fest mit der Person verbunden sind, können sie im Gegensatz zu Passwörtern nicht vergessen und im Gegensatz zu Hardware-Token nicht zu Hause liegen gelassen werden. Zu den am häufigsten genutzten biometrischen Verfahren gehören der Fingerabdruckscan, die Gesichtserkennung (Face ID), der Iris-Scan sowie die Venenerkennung.</p>
+<p>Eingesetzt wird die Biometrie heute flächendeckend bei der Freischaltung von mobilen Endgeräten (Smartphones, Tablets), an modernen Zutrittskontrollsystemen für Sicherheitsbereiche (z. B. Rechenzentren) sowie als lokaler Freigabemechanismus bei Passkey-Anmeldungen. Die Sensoren erfassen die biologischen Daten, wandeln sie in ein mathematisches Muster (Template) um und vergleichen dieses mit dem lokal abgespeicherten Referenzmuster.</p>
+<p>Der größte Vorteil der Biometrie liegt in der hervorragenden Benutzerfreundlichkeit und Schnelligkeit. Die Freigabe erfolgt in Sekundenbruchteilen, ohne dass sich der Nutzer komplexe Zeichenfolgen merken muss. Zudem ist eine Weitergabe der Zugangsdaten an Kollegen (z. B. im Schichtbetrieb) nahezu ausgeschlossen.</p>
+<p>Dennoch birgt die Biometrie spezifische Nachteile und Risiken: Ein biometrisches Merkmal ist niemals geheim – Fingerabdrücke werden auf Oberflächen hinterlassen und Gesichter sind öffentlich sichtbar. Wird ein biometrischer Datensatz einmal kompromittiert oder nachgebildet (z. B. durch hochauflösende Attrappen), kann das Merkmal im Gegensatz zu einem Passwort niemals geändert werden – ein Mensch hat schließlich nur einen Satz Fingerabdrücke. Zudem müssen bei der Speicherung und Verarbeitung biometrischer Daten strengste Datenschutzanforderungen eingehalten werden.</p>
+<hr />
+<h3 id="arbeitsauftrag-a24-benutzer-und-rechtevergabe-planen">Arbeitsauftrag A|2.4: Benutzer und Rechtevergabe planen</h3>
+<p>Nachdem Sie gemeinsam mit Frau Weber die Multi-Faktor-Authentifizierung (MFA) für die Terminals in Werkhalle 2 geplant haben, steht der nächste Schritt an: Das gemeinsame Sammelkonto betrieb_halle2 muss endgültig gelöscht und durch ein strukturiertes, individuelles Benutzermanagement ersetzt werden.</p>
+<p>Frau Weber erklärt das Ziel der Maßnahme:</p>
+<p><em>"MFA nützt uns nichts, wenn am Ende zwar jeder Techniker sein eigenes Login hat, aber alle dieselben Vollzugriffsrechte besitzen. Letzte Woche hat ein Azubi aus Versehen die Extruder-Temperatureinstellungen einer Anlage im System überschrieben – einfach, weil sein Account dieselben Rechte hatte wie der des Fertigungsleiters. Wir brauchen ein klares Rechtekonto-Konzept: Jeder Mitarbeiter darf nur genau das tun und sehen, was er für seine tägliche Arbeit wirklich braucht. Zudem können wir nicht für jeden einzelnen Mitarbeiter händisch Rechte vergeben und pflegen – bei Personalwechseln blickt sonst keiner mehr durch. Wir müssen Rollen definieren und Berechtigungen über Gruppen steuern."</em></p>
+<h4 id="aufgabe-1_4">Aufgabe 1</h4>
+<p>Erläutern Sie, welche Risiken entstehen, wenn allen Benutzern im Unternehmen standardmäßig administrative Schreib- oder Konfigurationsrechte eingeräumt werden.</p>
+<h4 id="aufgabe-2_4">Aufgabe 2</h4>
+<p>Informieren Sie sich im M|2.4.0: Principle of Least Privilege und erklären Sie das Principle of Least Privilege (Prinzip der minimalen Rechtevergabe). Begründen Sie, warum dieses Prinzip für das Schutzziel der Integrität und Vertraulichkeit bei RECPLAST essenziell ist.</p>
+<h4 id="aufgabe-3_4">Aufgabe 3</h4>
+<p>Arbeiten Sie anhand des M|2.4.1: Berechtigungen und Gruppen folgende Grundlagen heraus:</p>
+<ul>
+<li>Benutzerverwaltung vs. Rechtesteuerung: Unterscheiden Sie zwischen der Identität eines Benutzers (User Account) und seinen Berechtigungen (Permissions).</li>
+<li>Rollenbasierte Zugriffskontrolle (RBAC - Role-Based Access Control):</li>
+<li>Erklären Sie das Funktionsprinzip von RBAC (Zuordnung von Benutzern zu Gruppen/Rollen und Rollen zu Berechtigungen).</li>
+<li>Welche administrativen Vorteile bietet RBAC gegenüber der direkten Zuweisung von Rechten an einzelne Personen (z. B. bei Neueinstellungen, Abteilungswechseln oder Kündigungen)?</li>
+<li>Rechte-Arten: Differenzieren Sie kurz zwischen Lese- (Read), Schreib- (Write), Ausführ- (Execute) und Administrationsrechten im Kontext von Anwendungs- und Dateisystemzugriffen.</li>
+</ul>
+<h4 id="aufgabe-4_2">Aufgabe 4</h4>
+<p>In Werkhalle 2 arbeiten verschiedene Personengruppen an den Steuerungsterminals. Erstellen Sie ein Berechtigungskonzept nach dem RBAC-Prinzip für folgende Rollen:</p>
+<ul>
+<li>Maschinenbediener / Techniker (Schichtbetrieb)</li>
+<li>Fertigungsleitung / Schichtführer</li>
+<li>Auszubildende / Praktikanten</li>
+<li>Externe Wartungs-Techniker</li>
+</ul>
+<p>Erstellen Sie eine Übersicht (z.B. als Berechtigungsmatrix), aus der hervorgeht:</p>
+<ul>
+<li>Welche Rolle welche Lese-, Schreib- oder Sonderrechte auf die Anlagensteuerung und Rezepturdatenbank besitzt. Sie können die Kürzel (r=read, w=write, x=execute) verwenden.</li>
+<li>Wie Sie das Principle of Least Privilege speziell für die Gruppe der Auszubildenden und der externen Wartungstechniker umsetzen?</li>
+</ul>
+<hr />
+<h3 id="material-m240-principle-of-least-privilege">Material M|2.4.0: Principle of Least Privilege</h3>
+<p>Das Principle of Least Privilege (PoLP) – im Deutschen auch als Prinzip der minimalen Rechtevergabe oder Minimalprinzip bezeichnet – ist eines der wichtigsten Grundprinzipien der Informationssicherheit. Das Prinzip besagt, dass jeder Benutzer, jeder Prozess und jedes IT-System nur exakt diejenigen Zugriffsrechte und Befugnisse erhalten darf, die für die ordnungsgemäße Erfüllung der jeweiligen spezifischen Aufgabe zwingend erforderlich sind. Jegliche darüber hinausgehenden Rechte sind konsequent zu verweigern (Default Deny).</p>
+<p>In vielen Unternehmensnetzwerken herrscht in der Praxis das Antipattern vor, Benutzern aus Bequemlichkeit globale Administratorrechte einzuräumen. Dies birgt enorme Sicherheitsrisiken: Erlangt ein Schädling (z. B. Ransomware) Zugriff auf einen Account mit erweiterten Rechten, kann sich die Schadsoftware ungehindert im gesamten System ausbreiten, Daten verschlüsseln oder vertrauliche Informationen entwenden. Wenden IT-Verantwortliche das PoLP konsequent an, wird der mögliche Schaden im Falle eines Sicherheitsvorfalls auf den unmittelbaren Wirkungsbereich des betroffenen Kontos begrenzt (Schadenseindämmung / Blast Radius Reduction).</p>
+<p>Neben dem Schutz vor Schadsoftware schützt das Principle of Least Privilege das Unternehmen auch vor unbeabsichtigten Fehlern durch eigenes Personal – wie etwa dem versehentlichen Löschen von Systemkonfigurationen oder dem Überschreiben kritischer Produktionsdaten. Zudem unterstützt es das Schutzziel der Vertraulichkeit, da Mitarbeiter nur Einblick in diejenigen Daten erhalten, die für ihre Rolle zwingend notwendig sind (Need-to-know-Prinzip). Die Vergabe von Rechten sollte daher stets temporär beschränkt, regelmäßig überprüft (Access Review) und nach Beendigung einer Aufgabe sofort wieder auf das Minimum zurückgesetzt werden.</p>
+<hr />
+<h3 id="material-m241-berechtigungen-und-gruppen">Material M|2.4.1: Berechtigungen und Gruppen</h3>
+<p>Um das Principle of Least Privilege in einem Unternehmen effizient umzusetzen, reicht eine rein individuelle Rechtevergabe pro Person nicht aus. Wenn Systemadministratoren jedem einzelnen Mitarbeiter händisch Lese-, Schreib- oder Ausführungsrechte zuweisen müssten, würde dies bei Personalwechseln, Neueinstellungen oder Vertretungen schnell zu einem unüberschaubaren Verzeichnis- und Rechtechaos (Privilege Creep) führen. Die Lösung hierfür ist die Einführung von Berechtigungskonzepten auf Basis von Gruppen und Rollen.</p>
+<p>In der IT-Sicherheit unterscheidet man grundlegend zwischen verschiedenen Zugriffsarten auf Dateien, Datenbanken oder Systemfunktionen:</p>
+<ul>
+<li>Lesen (Read / R): Berechtigt zum Einsehen und Auslesen von Daten, Dokumenten oder Konfigurationen, ohne diese verändern zu können.</li>
+<li>Schreiben (Write / W): Erlaubt das Erstellen, Ändern, Überschreiben oder Löschen von Daten und Einstellungen.</li>
+<li>Ausführen (Execute / X): Gestattet das Starten von Programmen, Skripten oder Steuerungsbefehlen auf Systemen.</li>
+<li>Vollzugriff / Administration: Erlaubt zusätzlich das Ändern von Berechtigungen und das Ändern der Eigentümerschaft an Ressourcen.</li>
+</ul>
+<p>Der weltweite Standard zur effizienten Verwaltung dieser Rechte ist die Rollenbasierte Zugriffskontrolle (engl. Role-Based Access Control, RBAC). Bei RBAC werden Berechtigungen nicht direkt an einzelne Personen vergeben, sondern an logische Rollen (bzw. Benutzergruppen), die den Aufgaben im Betrieb entsprechen (z. B. Gruppe_Fertigung, Gruppe_Labor, Gruppe_Azubis).</p>
+<p>Das Verfahren folgt einem Drei-Stufen-Modell:</p>
+<ul>
+<li>Rechte den Rollen zuweisen: Der Rolle Gruppe_Fertigung werden exakt die Lese- und Schreibrechte zugewiesen, die in der Halle benötigt werden.</li>
+<li>Benutzer den Rollen zuweisen: Einzelne Mitarbeiterkonten (z. B. k.müller) werden Mitglied der jeweiligen Gruppe.</li>
+<li>Vererbung nutzen: Der Benutzer k.müller erbt automatisch alle Rechte der Rolle Gruppe_Fertigung.</li>
+</ul>
+<p>Der zentrale Vorteil von RBAC liegt in der enormen administrativen Erleichterung und Übersichtlichkeit. Tritt ein neuer Mitarbeiter in das Unternehmen ein, muss er lediglich der passenden Gruppe hinzugefügt werden und besitzt sofort alle notwendigen Rechte. Wechselt ein Kollege die Abteilung, wird er aus der alten Gruppe entfernt und der neuen hinzugefügt – ein mühsames Suchen und Entfernen einzelner Altrechte entfällt vollständig. Dadurch wird die Compliance gewahrt und verhindert, dass Konten im Laufe der Jahre unbemerkt immer mehr Rechte ansammeln.</p>
+<hr />
+<h3 id="arbeitsauftrag-a25-endpoint-security-planen">Arbeitsauftrag A|2.5: Endpoint Security planen</h3>
+<p>Ein Wartungstechniker einer externen Maschinenfirma hat am Leitstand in Werkhalle 2 einen eigenen USB-Stick eingesteckt, um ein Software-Update aufzuspielen. Kurze Zeit später meldet die Antiviren-Software verdächtige Skriptaktivitäten im Hintergrund des Steuerungsterminals. Frau Weber reagiert sofort und bittet Sie, ein kompaktes Sicherheitskonzept zur Absicherung aller Endgeräte (Büro-PCs und Fertigungsterminals) auszuarbeiten.</p>
+<h4 id="aufgabe-1_5">Aufgabe 1</h4>
+<p>Erläutern Sie zwei konkrete Sicherheitsrisiken, die von ungeschützten USB-Schnittstellen und Drahtlosverbindungen an den Terminals in der Fertigung ausgehen.</p>
+<h4 id="aufgabe-2_5">Aufgabe 2</h4>
+<p>Informieren Sie sich im M|2.5.0: Endgeräte und ihre Schnittstellen absichern und beschreiben Sie den Unterschied zwischen einer rein physischen Schnittstellensperre (z.B. USB-Port-Blocker) und einer softwareseitigen Schnittstellensteuerung.</p>
+<h4 id="aufgabe-3_5">Aufgabe 3</h4>
+<p>Erstellen Sie für die Terminals in Werkhalle 2 einen konkreten 3-Punkte-Plan zur Härtung der Endgeräte. Berücksichtigen Sie dabei:</p>
+<ul>
+<li>Den Umgang mit USB-Ports und Wechselmedien.</li>
+<li>Den Schutz vor Schadsoftware und verzögerten Updates.</li>
+<li>Den Schutz mobiler Endgeräte (z.B. Laptops der Schichtleitung) bei Verlust oder Diebstahl.</li>
+</ul>
+<hr />
+<h3 id="material-m250-endgerate-und-ihre-schnittstellen-absichern">Material M|2.5.0: Endgeräte und ihre Schnittstellen absichern</h3>
+<p>Jedes Endgerät (engl. Endpoint) – ob Büro-PC, Industrieterminal, Smartphone oder Laptop – stellt ein mögliches Einfallstor in das Unternehmensnetzwerk dar. Unter Endpoint Security versteht man die Gesamtheit aller Maßnahmen, die ein solches System vor unbefugtem Zugriff, Schadsoftware und Datenabfluss (Data Loss Prevention) schützen.</p>
+<p>Ein zentraler Angriffspfad führt über physische und logische Schnittstellen:</p>
+<ul>
+<li>USB-Ports &amp; Wechselmedien: Über ungeschützte USB-Schnittstellen kann leicht Schadsoftware (z.B. Malware, Keylogger) eingeschleust werden. Zudem können vertrauliche Unternehmensdaten unbemerkt auf externe Datenträger kopiert werden.</li>
+<li>Drahtlose Schnittstellen (WLAN / Bluetooth / NFC): Nicht benötigte Funkverbindungen bieten Angreifern Angriffsflächen für Man-in-the-Middle-Attacken oder das Auslesen von Signalen in unmittelbarer Nähe.</li>
+<li>Netzwerkschnittstellen (LAN): Unbeaufsichtigte Netzwerkdosen in öffentlich zugänglichen Bereichen ermöglichen das Anstecken fremder Geräte (Rogue Devices).</li>
+</ul>
+<p>Zur Absicherung von Endgeräten werden technische und organisatorische Maßnahmen kombiniert:</p>
+<ul>
+<li>Schnittstellen-Härtung (Hardening): Physische Sperren (z.B. USB-Port-Blocker) oder softwareseitige Richtlinien (z.B. Deaktivierung von USB-Datenträgern via Gruppenrichtlinien/GPO). Deaktivierung aller ungenutzten Schnittstellen (Bluetooth, WLAN).</li>
+<li>Endpoint Detection &amp; Response (EDR) / Antivirus: Einsatz zentral verwalteter Schutzsoftware, die verhaltensbasiert Schadsoftware erkennt, isoliert und dem Sicherheitsteam meldet.</li>
+<li>Patch-Management &amp; Betriebssystem-Updates: Regelmäßiges Schließen von Sicherheitslücken in Betriebssystemen und Anwendungen.</li>
+<li>Festplattenverschlüsselung: Schutz von Daten auf mobilen Geräten bei Verlust oder Diebstahl (z.B. via BitLocker).</li>
+</ul>
+<hr />
+<h3 id="arbeitsauftrag-a26-klassifizierung-von-informationen-durchfuhren">Arbeitsauftrag A|2.6: Klassifizierung von Informationen durchführen</h3>
+<p>Frau Weber entdeckt bei einem Rundgang durch Werkhalle 2 auf einem Drucker einen unbedeckten Ausdruck der exakten Mischungsverhältnisse für die Granulat-Serie REC-Poly-3. Gleichzeitig liegen im Büro der Schichtleitung ausgedruckte Wartungsprotokolle und Dienstpläne offen herum.</p>
+<p>Frau Weber stellt fest: <em>"Unsere Mitarbeiter wissen gar nicht, welche Dokumente wie geschützt werden müssen. Ein Auszubildender hat letzte Woche sogar einen Entwurf unseres neuen Fertigungsverfahrens per unverschlüsselter Mail an einen externen Lieferanten geschickt. Wir müssen eine klare Datenklassifizierung einführen, damit jedem im Betrieb sofort bewusst ist, wie mit welchen Informationen umzugehen ist."</em></p>
+<h4 id="aufgabe-1_6">Aufgabe 1</h4>
+<p>Erläutern Sie den Zweck einer Informationsklassifizierung im Unternehmen.</p>
+<h4 id="aufgabe-2_6">Aufgabe 2</h4>
+<p>Informieren Sie sich mittels M|2.6.0: Vertraulichkeitsstufen definieren und nennen Sie die vier gängigen Vertraulichkeitsstufen und beschreiben Sie kurz den jeweiligen Schutzbedarf.</p>
+<h4 id="aufgabe-3_6">Aufgabe 3</h4>
+<p>Ordnen Sie die folgenden bei RECPLAST vorkommenden Daten und Dokumente einer passenden Vertraulichkeitsstufe (Öffentlich, Intern, Vertraulich, Streng vertraulich) zu und begründen Sie Ihre Entscheidung anhand möglicher Folgeschäden bei Offenlegung:</p>
+<ul>
+<li>Sicherheitsdatenblatt für Granulate (auf der RECPLAST-Website abrufbar).</li>
+<li>Der aktuelle Schichtplan der Werkhalle 2.</li>
+<li>Die chemische Zusammensetzung und Mischungsrezeptur des Additivs REC-Poly-3.</li>
+<li>Gehaltsabrechnungen und Personalakten der Schichtleiter.</li>
+</ul>
+<h4 id="aufgabe-4_3">Aufgabe 4</h4>
+<p>Erstellen Sie für Frau Weber eine kurze Richtlinie zur Handhabung für die Stufe „Streng vertraulich“ (z. B. bezüglich der Rezepturen). Legen Sie fest:</p>
+<ul>
+<li>Wie müssen digitale Dateien (z.B. beim Versand per E-Mail) und Papierdokumente geschützt werden?</li>
+<li>Welche Regeln gelten für die Lagerung und Vernichtung dieser Unterlagen?</li>
+</ul>
+<hr />
+<h3 id="material-m260-vertraulichkeitsstufen-definieren">Material M|2.6.0: Vertraulichkeitsstufen definieren</h3>
+<p>Nicht alle Informationen in einem Unternehmen sind gleich schützenswert. Während eine Pressemitteilung oder eine Broschüre für die Öffentlichkeit bestimmt ist, können verloren gegangene Kundendaten, Finanzzahlen oder Produktionsrezepturen existenzbedrohende Schäden nach sich ziehen. Die Klassifizierung von Informationen ist ein zentraler Prozess der Informationssicherheit, um Daten systematisch nach ihrem Schutzbedarf einzustufen und mit entsprechenden Schutzmaßnahmen zu belegen.</p>
+<p>Ein typisches Schema gliedert Informationen in vier Vertraulichkeitsstufen:</p>
+<ul>
+<li>Öffentlich (Public): Daten, deren Offenlegung dem Unternehmen nicht schadet und die für die Allgemeinheit bestimmt sind (z.B. Produktkataloge, Stellenausschreibungen, Marketing-Flyer).</li>
+<li>Intern (Internal): Daten für den normalen Geschäftsbetrieb, die nur für Mitarbeiter bestimmt sind. Eine Weitergabe an Dritte ist nicht vorgesehen, der Schaden bei Offenlegung wäre jedoch gering (z.B. internes Telefonverzeichnis, Kantinenplan, allgemeine Arbeitsanweisungen).</li>
+<li>Vertraulich (Confidential): Sensible Daten, deren unbefugte Weitergabe dem Unternehmen erheblichen finanziellen, rechtlichen oder Reputationsschaden zufügen könnte (z. B. Kunden- und Lieferantenverträge, Personalakten, Quellcodes, detaillierte Kennzahlen).</li>
+<li>Streng vertraulich (Restricted / Strictly Confidential): Höchste Schutzstufe für kritische Kerninformationen (Betriebsgeheimnisse). Eine Kompromittierung bedroht den Fortbestand des Unternehmens oder verletzt Gesetze massiv (z.B. patentfähige Erfindungen, exklusive chemische Rezepturen, Zugangsdaten zu Kernsystemen).</li>
+</ul>
+<p>Für jede Stufe müssen eindeutige Handhabungsvorschriften festgelegt werden. Diese regeln, wie Dokumente gekennzeichnet (z.B. Wasserzeichen, Kopfzeilen), wie sie gespeichert und übertragen (z.B. Pflicht zur Verschlüsselung) und wie sie entsorgt werden dürfen (z.B. Aktenvernichter nach DIN 66399).</p>
+<hr />
+<h3 id="arbeitsauftrag-a27-physische-zutrittskontrollen-einrichten">Arbeitsauftrag A|2.7: Physische Zutrittskontrollen einrichten</h3>
+<p>Bei einer Überprüfung der Aufnahmen der Flur-Kamera stellt Frau Weber fest, dass letzte Woche ein externer Handwerker ohne Begleitung durch Werkhalle 2 spaziert ist. Er blieb kurz am unbesetzten Leitstand stehen, blickte auf den Monitor der Extrusionsanlage und ging anschließend weiter in Richtung des Unterverteiler-Raums, dessen Tür angelehnt war.</p>
+<p>Frau Weber ist alarmiert: "Digitale Sperren nützen nichts, wenn jeder Hinz und Kunz physisch an unsere Terminals und Unterverteiler herankommen kann! Wir müssen die physische Sicherheit bei RECPLAST von der Werkseinfahrt bis zum Serverraum komplett neu organisieren."</p>
+<h4 id="aufgabe-1_7">Aufgabe 1</h4>
+<p>Erläutern Sie, warum physische Zutrittskontrollen eine zwingende Voraussetzung für die digitale Vertraulichkeit von Daten sind.</p>
+<h4 id="aufgabe-2_7">Aufgabe 2</h4>
+<p>Differenzieren Sie die Schutzanforderungen für folgende drei Zonen bei RECPLAST:</p>
+<ul>
+<li>Der zentrale Serverraum der IT.</li>
+<li>Der Leitstand in Werkhalle 2.</li>
+<li>Der Besucher- und Verwaltungsbereich.</li>
+</ul>
+<h4 id="aufgabe-3_7">Aufgabe 3</h4>
+<p>Identifizieren Sie im obigen Szenario mindestens drei Verstöße gegen physische Sicherheitsprinzipien und ordnen Sie diese den jeweiligen Richtlinien</p>
+<h4 id="aufgabe-4_4">Aufgabe 4</h4>
+<p>Entwerfen Sie für Frau Weber einen 3-Punkte-Maßnahmenkatalog, um die physische Sicherheit bei RECPLAST nachhaltig zu verbessern:</p>
+<ul>
+<li>Maßnahme 1 (Server- &amp; Technikräume): Welche baulichen und technischen Zutrittssicherungen empfehlen Sie für den Serverraum und die Hallenverteiler? (M|2.7.0: Sicherung von Serverräumen)</li>
+<li>Maßnahme 2 (Arbeitsplätze &amp; Terminals): Welche Verhaltensregeln und technischen Einstellungen müssen für die Leitstände und Büros durchgesetzt werden? (M|2.7.1: Sicherung von Arbeitsplätzen)</li>
+<li>Maßnahme 3 (Besuchermanagement): Welche konkreten Regeln müssen ab sofort für fremde Personen auf dem Werksgelände gelten? (M|2.7.2: Besucher im Unternehmen)</li>
+</ul>
+<hr />
+<h3 id="material-m270-sicherung-von-serverraumen">Material M|2.7.0: Sicherung von Serverräumen</h3>
+<p>Der Serverraum ist das physische Herzstück der Unternehmens-IT. Schlägt die physische Sicherheit fehl, greifen selbst die stärksten digitalen Schutzmaßnahmen wie Firewalls oder komplexe Passwörter nicht mehr: Wer physischen Zugriff auf Server, Switche oder Speichergeräte hat, kann Hardware entwendungsfrei manipulieren, Festplatten entnehmen oder direkte Kabelverbindungen herstellen.</p>
+<p>Die Absicherung eines Serverraums erfordert daher ein umfassendes Schutzzustandskonzept:</p>
+<ul>
+<li>Zutrittskontrolle &amp; Dokumentation: Der Zutritt darf ausschließlich befugtem IT-Personal gestattet sein. Die Verriegelung erfolgt über mechatronische Schließsysteme, RFID-Chipkarten oder biometrische Lesegeräte. Jedes Öffnen der Tür wird elektronisch protokolliert.</li>
+<li>Bauliche &amp; Raumphysische Maßnahmen: Der Serverraum sollte sich in einem inneren Kernbereich des Gebäudes (ohne Außenfenster) befinden. Wände und Türen müssen widerstandsfähig gegen Einbruch und Feuer sein.</li>
+<li>Umgebungsüberwachung (Monitoring): Sensoren überwachen Temperatur, Luftfeuchtigkeit, Rauchentwicklung und Wasserlecks. Redundante Klimaanlagen verhindern Hitzeschäden, während automatische, personenneutrale Gaslöschanlagen (z.B. Novec 1230 oder Stickstoff) Brände löschen, ohne die Elektronik durch Wasser zu zerstören.</li>
+</ul>
+<hr />
+<h3 id="material-m271-sicherung-von-arbeitsplatzen">Material M|2.7.1: Sicherung von Arbeitsplätzen</h3>
+<p>Neben zentralen Serverräumen bilden reguläre Arbeitsplätze in Büros, Leitständen und Fertigungshallen ein Hauptziel für Angriffe vor Ort. Angreifer nutzen dort Unachtsamkeiten aus, um im Vorbeigehen vertrauliche Informationen abzulesen (Shoulder Surfing) oder offene Sessions zu übernehmen.</p>
+<p>Zur Sicherung von Arbeitsplätzen haben sich zwei grundlegende Richtlinien etabliert:</p>
+<ul>
+<li>Clear Screen Policy (Bildschirmsperre): Wird ein Arbeitsplatz verlassen – auch nur für wenige Minuten –, muss der Bildschirm umgehend gesperrt werden (z. B. via Tastenkombination Win + L oder automatische Inaktivitäts-Sperre nach 2–3 Minuten). Bildschirme in öffentlich oder von Besuchern einsehbaren Bereichen sollten zudem mit Blickschutzfolien (Privacy Filters) ausgestattet werden.</li>
+<li>Clear Desk Policy (Aufgeräumter Arbeitsplatz):    Nach Arbeitsende oder beim Verlassen des Büros dürfen keine vertraulichen Dokumente, Notizbücher, Speichermedien (USB-Sticks, externe Festplatten) oder Schlüssel offen auf dem Tisch liegen. Alle physischen Unterlagen sind in verschließbaren Schränken oder Rollcontainern zu verwahren. Notizzettel mit Passwörtern am Monitor stellen einen eklatanten Verstoß gegen die Informationssicherheit dar.</li>
+</ul>
+<p>Zusätzlich müssen Arbeitsstationen in Fertigungsbereichen physisch geschützt werden (z.B. durch verschließbare Terminal-Gehäuse), um unbefugtes Umstecken von Kabeln oder das Anbringen harter Keylogger an USB-Ports zu verhindern.</p>
+<hr />
+<h3 id="material-m272-besucher-im-unternehmen">Material M|2.7.2: Besucher im Unternehmen</h3>
+<p>Besucher, Dienstleister, Handwerker und externe Reinigungskräfte halten sich täglich in Unternehmensgebäuden auf. Ohne klare Prozesse zur Besuchersteuerung entsteht ein erhebliches Sicherheitsrisiko durch unbefugtes Eindringen (Tailgating / Huckepackmitnahme) oder Spionage.</p>
+<p>Ein strukturierter Besucherprozess stützt sich auf folgende Regeln:</p>
+<ul>
+<li>Anmeldung &amp; Identifikation: Jeder Besucher muss sich am Empfang ausweisen, wird im Besucherbuch (oder einem elektronischen Besuchermanagementsystem) mit Name, Firma, Ansprechpartner sowie Ankunfts- und Abreisezeit registriert und erhält einen gut sichtbaren Besucherausweis.</li>
+<li>Begleitpflicht (Escort Policy): Fremde Personen dürfen sich in geschützten Unternehmensbereichen (insbesondere in Produktionshallen, Büros und Technikräumen) niemals unbeaufsichtigt bewegen. Sie sind während des gesamten Aufenthalts von einem internen Mitarbeiter zu begleiten.</li>
+<li>Zonenbeschränkung: Besucherausweise gewähren keinen Zutritt zu sensitiven Bereichen wie Serverräumen, Entwicklungsabteilungen oder Leitständen.</li>
+<li>Sensibilisierung des Personals: Mitarbeiter müssen angewiesen werden, unbekannte Personen ohne sichtbaren Mitarbeiter- oder Besucherausweis freundlich, aber bestimmt anzusprechen und zum Empfang zu begleiten.</li>
+</ul>
+<hr />
+<h3 id="arbeitsauftrag-a28-awareness-schulungen-und-betriebsvereinbarungen-nutzen">Arbeitsauftrag A|2.8: Awareness-Schulungen und Betriebsvereinbarungen nutzen</h3>
+<p>Wenige Tage nach dem Schließen der technischen Lücken in Werkhalle 2 erhält ein Schichtleiter am Leitstand einen Anruf: Der Anrufer gibt sich als externer IT-Techniker aus und behauptet, er müsse im Auftrag von Frau Weber dringend ein Sicherheits-Update einspielen. Dazu benötigt er sofort das neu vergebene Passwort des Schichtleiters. Der Schichtleiter wird unsicher, gibt das Passwort aber schließlich heraus, um den Produktionsablauf nicht zu behindern.</p>
+<p>Als Frau Weber davon erfährt, wird ihr klar: "Wir können noch so viele Passkey-Systeme, Firewalls und USB-Sperren installieren – wenn unsere Belegschaft auf einfache Social-Engineering-Tricks hereinfällt, stehen die Türen für Angreifer weiterhin offen. Wir müssen die menschliche Komponente absichern und gleichzeitig klare rechtliche Rahmenbedingungen schaffen!"</p>
+<h4 id="aufgabe-1_8">Aufgabe 1</h4>
+<p>Informieren Sie sich in den Materialien M|2.8.0: Betriebsvereinbarungen und Guidelines sowie M|2.8.1: Awareness-Schulungen über Best Pracice in den Unternehmen.</p>
+<h4 id="aufgabe-2_8">Aufgabe 2</h4>
+<p>Benennen Sie die Methode, mit der der Anrufer an das Passwort des Schichtleiters gelangt ist, und erklären Sie das zugrundeliegende Prinzip dieser Angriffstechnik.</p>
+<h4 id="aufgabe-3_8">Aufgabe 3</h4>
+<p>Erläutern Sie die Begriffe Guideline (IT-Sicherheitsrichtlinie) und Betriebsvereinbarung. Warum sind beide Instrumente für eine rechtssichere und nachhaltige Umsetzung von IT-Sicherheit erforderlich?</p>
+<h4 id="aufgabe-4_5">Aufgabe 4</h4>
+<p>Formulieren Sie für die RECPLAST GmbH drei konkrete Verhaltensregeln für eine Guideline zur Passwort- und Identitätssicherheit, die künftig Verunsicherungen wie im obigen Szenario verhindern.</p>
+<h4 id="aufgabe-5_1">Aufgabe 5</h4>
+<p>Entwerfen Sie für Frau Weber ein kurzes Konzept für eine Awareness-Schulung zur Stärkung der Human Firewall bei RECPLAST. Berücksichtigen Sie dabei folgende Fragen:</p>
+<ul>
+<li>Zielgruppen: Warum sollten Schichtleiter in der Produktion anders geschult werden als Mitarbeiter in der Verwaltung?</li>
+<li>Methoden: Welche Schulungsmethoden (z. B. Simulationen, E-Learnings, Kurz-Checklisten) empfehlen Sie für den Schichtbetrieb, um die Arbeitsprozesse nicht zu überlasten?</li>
+<li>Fehlerkultur: Wie sollte die Schichtleitung reagieren, wenn einem Mitarbeiter dennoch ein Fehler unterläuft (z. B. Anklicken eines verdächtigen Links)?</li>
+</ul>
+<hr />
+<h3 id="material-m280-betriebsvereinbarungen-und-guidelines">Material M|2.8.0: Betriebsvereinbarungen und Guidelines</h3>
+<p>Die technisch ausgereiftesten Schutzmaßnahmen bleiben wirkungslos, wenn im Unternehmen keine verbindlichen Spielregeln für deren Nutzung existieren. Organisatorische Richtlinien schaffen den rechtlichen und verhaltensbezogenen Rahmen für die Informationssicherheit und machen Sicherheit im Arbeitsalltag verbindlich.</p>
+<ul>
+<li><strong>IT-Sicherheitsrichtlinien (Guidelines):</strong> Guidelines definieren konkrete Verhaltensregeln für die Beschäftigten. Dazu gehören Richtlinien zur Passworterstellung, Vorgaben zur Nutzung von Wechselmedien (z. B. USB-Sticks), Regeln für mobiles Arbeiten sowie Clean-Desk- und Clear-Screen-Policies. Sie vermitteln den Mitarbeitenden klar, was erlaubt ist und wie im Vorfallsfall (z. B. bei Verlust eines Dienst-Smartphones) zu reagieren ist.</li>
+<li><strong>Betriebsvereinbarungen:</strong> Sobald technische Sicherheitsmaßnahmen eingeführt werden, die das Verhalten oder die Leistung der Arbeitnehmer überwachen können (z.B. Protokollierung von Logfiles, Auswertung von Zeiterfassungssystemen, Zugriffsüberwachung an Leitständen oder Einsatz von Data-Loss-Prevention-Software), berührt dies die Mitbestimmungsrechte des Betriebsrates (z.B. nach <a href="https://www.gesetze-im-internet.de/betrvg/__87.html">§ 87 BetrVG</a> in Deutschland). In einer Betriebsvereinbarung regeln Unternehmensleitung und Betriebsrat gemeinsam den Zweck, den Umfang und die Grenzen solcher Systeme. Sie stellt sicher, dass Sicherheitsmaßnahmen datenschutzkonform eingesetzt werden, ohne die Belegschaft unter unzulässige Totalüberwachung zu stellen.</li>
+</ul>
+<hr />
+<h3 id="material-m281-awareness-schulungen">Material M|2.8.1: Awareness-Schulungen</h3>
+<p>Der Mensch gilt in der IT-Sicherheit häufig als das schwächste Glied – gleichzeitig ist eine gut geschulte Belegschaft die stärkste Verteidigungslinie (Human Firewall). Technische Schutzsysteme wie Spam-Filter oder Firewalls bieten keinen hundertprozentigen Schutz. Kriminelle nutzen daher gezielt das menschliche Verhalten aus, um technische Sperren zu umgehen (Social Engineering).</p>
+<p>Typische Angriffsmethoden des Social Engineering sind:</p>
+<ul>
+<li>Phishing: Täuschung per E-Mail oder Chat, um Zugangsdaten abzugreifen oder Schadsoftware zu verbreiten.</li>
+<li>Shoulder Surfing &amp; Tailgating: Unbefugtes Mitlesen auf Bildschirmen oder unbemerktes Nachfolgen durch gesicherte Türen.</li>
+<li>Pretexting &amp; CEO-Fraud: Das Vorspiegeln einer falschen Identität (z.B. als IT-Support oder Geschäftsführung), um vertrauliche Informationen zu erpressen oder Überweisungen auszulösen.</li>
+</ul>
+<p>Awareness-Schulungen zielen darauf ab, das Sicherheitsbewusstsein der Mitarbeiter nachhaltig zu schärfen. Effektive Schulungskonzepte setzen nicht auf einmalige, trockene Theorievorträge, sondern auf kontinuierliche und praxisnahe Formate:</p>
+<ul>
+<li>Regelmäßige, interaktive E-Learning-Module mit Alltagsszenarien.</li>
+<li>Simulationen von Phishing-Mails im laufenden Betrieb mit direktem Feedback.</li>
+<li>Erstellung von prägnanten, leicht verständlichen Verhaltensregeln (z.B. "Spickzettel" an Arbeitsplätzen oder Notfall-Ansprechpartner).</li>
+</ul>
+<p>Das Ziel einer gelebten Sicherheitskultur ist es, Fehler nicht zu bestrafen, sondern Mitarbeiter zu ermutigen, verdächtige Beobachtungen oder eigene Missgeschicke unverzüglich der IT-Sicherheit zu melden.</p>
+<hr />
+<h2 id="kompetenz-22-integritat-sicherstellen">Kompetenz 2.2: Integrität sicherstellen</h2>
+<p>Nachdem Sie gemeinsam mit Ihrer Ausbilderin Frau Weber die Aspekte der Vertraulichkeit (u. a. das gemeinsame Gruppenkonto und die ungesicherten Zugänge) analysiert haben, richtet sich der Blick nun auf das nächste Kernschutzziel der Informationssicherheit: Integrität.</p>
+<p>Während die Spurensuche am Leitstand weitergeht, holt Frau Weber die Protokolle der Qualitätskontrolle hervor und legt sie auf den Tisch:</p>
+<p>"Dass Daten nicht nur eingesehen, sondern unbemerkt manipuliert werden können, zeigt der Vorfall an Extruder 2 überdeutlich. Eine eigenmächtige Rezepturänderung von 4,5 % auf 14,5 % beim Additiv REC-Poly-3 – ohne Freigabe im Labor-ERP – hat mal eben 8 Tonnen Granulat vernichtet. Dazu kommt der fremde USB-Stick mit dem unklaren Update und das geteilte Gruppenkonto, bei dem niemand nachvollziehen kann, wer welche Eingabe getätigt hat. Integrität bedeutet für uns: Unversehrtheit, Richtigkeit und Verlässlichkeit von Daten und Systemen. Wir müssen jetzt klären: Wie stellen wir sicher, dass Daten und Konfigurationen manipulationssicher bleiben und Änderungen lückenlos nachvollziehbar sind?"</p>
+<figure style="max-width: 100%; margin: 1em 0; text-align: center;"> 
+     <img src="bilder/02_integritaet.png" alt="Integrität sicherstellen" style="width: 100%; height: auto; border-radius: 6px;"> 
+     <figcaption style="font-size: 0.85em; color: #555555; margin-top: 6px; font-style: italic;"> 
+         Abb.: Integrität sicherstellen <span style="font-style: normal; opacity: 0.8;">(🤖 KI-generiert)</span> 
+     </figcaption> 
+ </figure>
+
+<hr />
+<h3 id="arbeitsauftrag-a29-die-bedeutung-des-schutzziels-integritat">Arbeitsauftrag A|2.9: Die Bedeutung des Schutzziels Integrität</h3>
+<p>Nach dem Vorfall an Extruder 2 bei der RECPLAST GmbH (eigenmächtige Rezepturänderung von 4,5 % auf 14,5 % beim Additiv REC-Poly-3, unbemerkt vernichtete 8 Tonnen Granulat sowie unklare Datenherkunft durch geteilte Gruppenkonten) stehen Sie vor der Aufgabe, das grundlegende Schutzziel der Integrität systematisch zu durchdringen.</p>
+<h4 id="aufgabe-1_9">Aufgabe 1</h4>
+<p>Informieren Sie sich über das Schutzziel der Integrität in M|2.9.0: Deep Dive – Schutzziel Integrität und beschreiben Sie dieses mit eigenen Worten. Unterscheiden Sie dabei direkt die drei Kernaspekte (Unversehrtheit, Verlässlichkeit, Verbindlichkeit).</p>
+<h4 id="aufgabe-2_9">Aufgabe 2</h4>
+<p>An welchen Stellen wurde das Schutzziel der Integrität bei der RECPLAST GmbH verletzt?</p>
+<h4 id="aufgabe-3_9">Aufgabe 3</h4>
+<p>Welche schwerwiegenden Konsequenzen drohen der RECPLAST GmbH, wenn die Integrität von Maschinenparametern, Software und Protokollen nicht gewährleistet ist? Ordnen Sie Ihre Ergebnisse in folgende Kategorien ein:</p>
+<ul>
+<li>Wirtschaftliche Folgen</li>
+<li>Sicherheits- und Qualitätsrisiken</li>
+<li>Rechtliche und organisatorische Folgen</li>
+</ul>
+<hr />
+<h3 id="material-m290-deep-dive-schutzziel-integritat">Material M|2.9.0: Deep Dive - Schutzziel Integrität</h3>
+<p>Neben der Vertraulichkeit bildet die Integrität eine der wesentlichen Säulen der Informationssicherheit. Während es bei der Vertraulichkeit darum geht, wer Zugriff auf Informationen hat, dreht sich bei der Integrität alles darum, ob die Informationen überhaupt noch stimmen.</p>
+<h4 id="was-bedeutet-integritat-in-der-it">Was bedeutet Integrität in der IT?</h4>
+<p>Im Kern beschreibt Integrität die Unversehrtheit, Richtigkeit und Verlässlichkeit von Daten, Programmen und Systemkonfigurationen. Ein System gilt dann als integritätsgewahrt, wenn sichergestellt ist, dass:</p>
+<ul>
+<li>Daten nicht unbemerkt verändert wurden: Weder während der Speicherung noch während der Übertragung dürfen Inhalte manipuliert, ergänzt oder gelöscht worden sein.</li>
+<li>Programme und Steuerungen verlässlich arbeiten: Software, Firmware oder maschinelle Steuerbefehle müssen exakt das tun, was von ihnen erwartet wird, ohne unerwünschte oder fremdgesteuerte Programmcodes auszuführen.</li>
+<li>Handlungen nachvollziehbar sind: Es muss jederzeit fälschungssicher feststellbar sein, wer eine Änderung vorgenommen hat (Verbindlichkeit).</li>
+</ul>
+<h4 id="integritat-in-der-praxis-warum-manipulationen-weitreichende-folgen-haben">Integrität in der Praxis: Warum Manipulationen weitreichende Folgen haben</h4>
+<p>Besonders in vernetzten Industrie- und Verwaltungsumgebungen kann der Verlust der Integrität gravierende Kettenreaktionen auslösen. Wenn beispielsweise Steuerungsdaten von Produktionsanlagen oder Rezepturen in einer Fabrik unbemerkt verändert werden, führt das oft nicht nur zu Datenfehlern, sondern direkt zu physikalischem Ausschuss, beschädigten Maschinen oder gefährlichen Betriebszuständen.</p>
+<p>Ebenso stellt sich die Frage der Integrität bei Software-Updates oder Konfigurationsänderungen. Gelangen ungeprüfte Dateien über externe Datenträger oder unsichere Netzwerke in ein System, ist die Vertrauenswürdigkeit des gesamten Systems gefährdet. Geteilte Benutzerkonten verstärken dieses Problem zusätzlich, da sie jegliche individuelle Zurechenbarkeit von Eingaben verhindern – es lässt sich im Nachhinein schlicht nicht mehr klären, ob ein Fehler menschliches Versehen, ein technischer Defekt oder eine bewusste Manipulation war.</p>
+<h4 id="herausforderungen-fur-die-praxis">Herausforderungen für die Praxis</h4>
+<p>Unternehmen stehen vor der ständigen Aufgabe, technische und organisatorische Barrieren zu errichten, die unbemerkte Eingriffe unmöglich machen. Dazu gehört, genau zu überwachen, wer Daten verändern darf, wie Änderungen protokolliert werden und ob eingespielte Updates tatsächlich aus einer vertrauenswürdigen Quelle stammen. Gelingt dies nicht, verliert das Unternehmen die Kontrolle über die Richtigkeit seiner eigenen Geschäftsprozesse.</p>
+<hr />
+<h3 id="arbeitsauftrag-a210-anderungskontrolle-und-logging-nutzen">Arbeitsauftrag A|2.10: Änderungskontrolle und Logging nutzen</h3>
+<p>Bei der RECPLAST GmbH hat sich gezeigt, dass Änderungen an den Rezepturen (wie bei Extruder 2) unbemerkt und ohne Dokumentation erfolgen konnten. Zudem arbeitet das Bedienpersonal an den Terminals mit einem gemeinsamen Gruppenkonto (betrieb_halle2). Um künftig Manipulationen und Fehler lückenlos aufdecken zu können, sind funktionierende Mechanismen zur Änderungskontrolle (Change Control) und ein lückenloses Logging &amp; Auditing unumgänglich.</p>
+<p>Informieren Sie sich im M|2.10.0: Änderungskontrolle und Logging.</p>
+<h4 id="aufgabe-1_10">Aufgabe 1</h4>
+<p>Welche Voraussetzungen müssen geschaffen werden, damit jede Eingabe am Leitstand eindeutig einer konkreten Person zugeordnet werden kann (Prinzip der Nicht-Abstreitbarkeit)?</p>
+<h4 id="aufgabe-2_10">Aufgabe 2</h4>
+<p>Was versteht man unter einem Audit-Trail (Revisionsprotokoll) in industriellen Steuerungs- und ERP-Systemen?</p>
+<h4 id="aufgabe-3_10">Aufgabe 3</h4>
+<p>Warum ist es wichtig, dass Logdaten manipulationssicher (z. B. durch Auslagerung auf einen zentralen, schreibgeschützten Syslog-Server) gespeichert werden?</p>
+<h4 id="aufgabe-4_6">Aufgabe 4</h4>
+<p>Entwerfen Sie für die RECPLAST GmbH einen groben Prozess, wie künftig mit Änderungen an produktionsrelevanten Daten (wie Rezepturen im Labor-ERP) umgegangen werden muss. Wie werden Änderungen dokumentiert? Beschreiben Sie den Weg von der Idee/Anforderung bis zur Übertragung an die Maschine.</p>
+<hr />
+<h3 id="material-m2100-anderungskontrolle-und-logging">Material M|2.10.0: Änderungskontrolle und Logging</h3>
+<p>Wenn Daten oder Systemkonfigurationen verändert werden, reicht es für die Sicherheit nicht aus, dies einfach nur zu erlauben oder zu verbieten. Um die Integrität dauerhaft zu wahren, muss ein Unternehmen nachvollziehen können, wer wann welche Änderung vorgenommen hat und ob diese überhaupt autorisiert war. Hier greifen die beiden zentralen Werkzeuge: Änderungskontrolle (Change Control) und Logging.</p>
+<h4 id="das-problem-der-anonymitat-warum-gruppenkonten-die-integritat-gefahrden">Das Problem der Anonymität: Warum Gruppenkonten die Integrität gefährden</h4>
+<p>In vielen Arbeitsumgebungen – insbesondere in der Produktion oder an Maschinenleitsänden – werden aus Bequemlichkeit oft gemeinsame Benutzerkonten (Gruppenkonten) verwendet. Das führt jedoch zu einem massiven Sicherheitsproblem: Wenn sich mehrere Personen denselben Benutzernamen und dasselbe Passwort teilen, ist jede Handlung völlig anonym.</p>
+<p>Tritt ein Fehler auf oder werden Parameter unbefugt verändert, lässt sich im Nachhinein nicht mehr feststellen, wer am Terminal saß. Das Prinzip der Verbindlichkeit (Nicht-Abstreitbarkeit) wird dadurch komplett ausgehebelt. Für eine funktionierende Integrität sind daher personalisierte Zugänge und eine eindeutige Authentifizierung zwingend erforderlich.</p>
+<h4 id="luckenlose-protokollierung-logging-und-audit-trails">Lückenlose Protokollierung (Logging und Audit-Trails)</h4>
+<p>Damit Änderungen nicht im Verborgenen bleiben, zeichnen moderne Systeme alle sicherheitsrelevanten Ereignisse in sogenannten Logdateien oder Audit-Trails auf. Ein guter Audit-Trail funktioniert wie ein digitales Fahrtenbuch und dokumentiert typischerweise:</p>
+<ul>
+<li>Den genauen Zeitstempel (Datum und Uhrzeit).</li>
+<li>Die eindeutige Benutzer-ID der handelnden Person.</li>
+<li>Die Art der Aktion (z. B. Erstellen, Ändern oder Löschen eines Datensatzes).</li>
+<li>Den genauen Vorher- und Nachher-Wert (z. B. welche Rezepturparameter konkret verändert wurden).</li>
+</ul>
+<p>Damit diese Protokolle ihren Zweck erfüllen, müssen sie manipulationssicher gespeichert werden – etwa auf einem separaten, gegen nachträgliche Änderungen geschützten Server. Werden Logs auf demselben System gespeichert, das ein Angreifer oder Täter kompromittiert, besteht die Gefahr, dass die Spuren im Nachhinein einfach gelöscht oder umgeschrieben werden.</p>
+<h4 id="kontrollierte-prozesse-durch-change-management">Kontrollierte Prozesse durch Change Management</h4>
+<p>Technische Protokolle allein reichen jedoch nicht aus; sie müssen durch organisatorische Abläufe ergänzt werden – das sogenannte Change Management.</p>
+<p>In einer sicheren IT- und Produktionsumgebung dürfen wichtige Änderungen (wie Software-Updates oder neue Maschinenrezepturen) niemals spontan oder im Alleingang durchgeführt werden. Stattdessen durchlaufen sie einen festgelegten Prozess:</p>
+<ul>
+<li>Antragstellung: Eine Änderung wird formal beantragt und begründet.</li>
+<li>Prüfung &amp; Freigabe: Fachkundige Stellen prüfen die Änderung (oft nach dem Vier-Augen-Prinzip), um Fehler oder Sabotage auszuschließen.</li>
+<li>Dokumentation &amp; Test: Die Änderung wird protokolliert und idealerweise vor dem Echtbetrieb getestet.</li>
+<li>Ausführung: Erst nach offizieller Freigabe wird die Änderung in das System eingepflegt.</li>
+</ul>
+<p>Durch das Zusammenspiel aus personengebundenen Konten, lückenhaftem Logging und geregelten Änderungsprozessen behält ein Unternehmen die volle Kontrolle über die Integrität seiner Systeme.</p>
+<hr />
+<h3 id="arbeitsauftrag-a211-integritatsprufung-und-kryptografie-einsetzen">Arbeitsauftrag A|2.11: Integritätsprüfung und Kryptografie einsetzen</h3>
+<p>In industriellen Umgebungen ist blindes Vertrauen in mitgebrachte Datenträger ein enormes Sicherheitsrisiko. Um zu verhindern, dass manipulierte Software oder schadhafter Code in Steuerungssysteme gelangt, müssen IT-Systeme kryptografische Prüfmechanismen wie Hashes und Code Signing einsetzen.</p>
+<h4 id="aufgabe-1_11">Aufgabe 1</h4>
+<p>Der Vorfall: Ein Schichtleiter meinte, der USB-Stick mit dem Update liege schon ein paar Tage herum und der Servicetechniker habe ihn „kurz eingesteckt“. Erklären Sie aus Sicht der Informationssicherheit, warum dieses Vorgehen brandgefährlich für die Integrität der Anlage ist.</p>
+<h4 id="aufgabe-2_11">Aufgabe 2</h4>
+<p>Welche technischen Schutzmechanismen müssten an den Leitstands-PCs aktiv sein, um das unautorisierte Einstecken von USB-Medien oder das Ausführen fremder Dateien technisch zu unterbinden?</p>
+<h4 id="aufgabe-3_11">Aufgabe 3</h4>
+<p>Was versteht man unter einer kryptografischen Hash-Funktion (z. B. SHA-256) und welche zentralen Eigenschaften besitzt sie (Einwegfunktion, Kollisionsresistenz)? Informieren Sie sich im M|2.11.0: Prüfsummen (Hashes).</p>
+<h4 id="aufgabe-4_7">Aufgabe 4</h4>
+<p>Angenommen, im Update auf dem USB-Stick wurde auch nur ein einziges Byte im Programmcode manipuliert. Was passiert mit dem berechneten Hash-Wert der Datei?</p>
+<h4 id="aufgabe-5_2">Aufgabe 5</h4>
+<p>Wie kann der Hersteller einer Software oder Firmware (oder die interne IT von RECPLAST) Hash-Werte nutzen, um sicherzustellen, dass eine heruntergeladene oder angelieferte Datei während des Transports nicht verändert wurde?</p>
+<h4 id="aufgabe-6">Aufgabe 6</h4>
+<p>Ein Hash-Wert allein beweist nur, dass eine Datei unverändert ist – er sagt jedoch nichts darüber aus, wer sie erstellt hat (Authentizität). Hier kommt Code Signing ins Spiel. Informieren Sie sich im M|2.11.1: Code Signing.</p>
+<h4 id="aufgabenteil-6a">Aufgabenteil 6a</h4>
+<p>Erklären Sie das Prinzip des Code Signings mithilfe asymmetrischer Kryptografie.</p>
+<h4 id="aufgabenteil-6b">Aufgabenteil 6b</h4>
+<p>Wie hätte das Einspielen des Updates von Extruder 4 verhindert werden müssen, wenn ein strenges Code-Signing-Konzept im Unternehmen aktiv gewesen wäre? (Was würde das Leitstand-System tun, wenn es auf den USB-Stick zugreift?)</p>
+<hr />
+<h3 id="material-m2110-prufsummen-hashes">Material M|2.11.0: Prüfsummen (Hashes)</h3>
+<p>Wenn Software-Updates, Firmware-Dateien oder wichtige Dokumente übertragen werden, stellt sich immer dieselbe Frage: Wurden die Daten auf dem Weg manipuliert oder beschädigt? Um die Integrität von Dateien zu garantieren, nutzt die IT mathematische Werkzeuge – die sogenannten Hash-Funktionen.</p>
+<h4 id="was-ist-ein-hash-eine-kryptografische-prufsumme">Was ist ein Hash (eine kryptografische Prüfsumme)?</h4>
+<p>Eine Hash-Funktion ist ein mathematischer Algorithmus, der eine Datei beliebiger Größe (egal ob ein einzelnes Textdokument oder ein riesiges Anlagen-Update) einliest und daraus eine feste Zeichenkette von bestimmter Länge berechnet – den Hash-Wert (oft auch Prüfsumme genannt).</p>
+<p>Dieser Hash-Wert funktioniert wie ein digitaler Fingerabdruck der Datei. Er besitzt drei entscheidende Eigenschaften:</p>
+<ul>
+<li>Eindeutigkeit: Jede Datei hat genau einen passenden Hash-Wert.</li>
+<li>Der Lawineneffekt: Verändert man in der Ausgangsdatei auch nur ein einziges Zeichen, einen einzigen Buchstaben oder ein einziges Byte, sieht der daraus berechnete Hash-Wert komplett anders aus.</li>
+<li>Einwegfunktion: Aus dem Hash-Wert lässt sich niemals die ursprüngliche Datei rekonstruieren.</li>
+</ul>
+<h4 id="beispiel-aus-dem-alltag-der-datei-download">Beispiel aus dem Alltag: Der Datei-Download</h4>
+<p>Stellen Sie sich vor, Sie laden ein großes Service-Pack für Ihre Industriesteuerung aus dem Internet herunter. Der Hersteller gibt auf seiner Website den offiziellen SHA-256-Hash-Wert an:
+<code>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</code></p>
+<p>Bevor Sie das Update installieren, berechnet Ihr Computer den Hash-Wert der heruntergeladenen Datei. Stimmen die Zeichenkette Ihres Computers exakt mit der des Herstellers überein, wissen Sie zu 100 %, dass die Datei unbeschädigt und unmanipuliert auf Ihrem Rechner angekommen ist. Weicht auch nur ein einziges Zeichen ab, bricht das System die Installation ab, weil ein Integritätsbruch vorliegt.</p>
+<h4 id="das-problem-mit-passwortern-und-die-losung-salzen-salt">Das Problem mit Passwörtern und die Lösung: "Salzen" (Salt)</h4>
+<p>Hashes werden nicht nur für Dateien, sondern vor allem für die sichere Speicherung von Passwörtern in Datenbanken genutzt. Ein System speichert niemals das echte Passwort im Klartext, sondern nur dessen Hash-Wert. Gibt ein Nutzer sein Passwort ein, wird es gehasht und das System prüft, ob die Hashes übereinstimmen.</p>
+<p>Dabei gab es früher ein großes Problem: Hacker nutzten sogenannte Rainbow Tables (große vorgefertigte Tabellen, in denen Millionen von Klartext-Passwörtern und deren Hashes gespeichert sind), um gehackte Passwort-Hashes blitzschnell im Klartext zu erraten.</p>
+<p>Um diesen Angriffen einen Strich durch die Rechnung zu machen, fügt man dem Passwort vor dem Hashen einen zufälligen, einzigartigen Zeichenblock hinzu – den Salt.</p>
+<ul>
+<li>Ohne Salt: Das Passwort <code>geheim123</code> ergibt immer denselben Hash-Wert. Hat ein Angreifer diesen Hash, kennt er die Lösung für alle Nutzer, die dieses Passwort verwenden.</li>
+<li>Mit Salt: Dem Passwort wird ein zufälliger Wert (z.B. <code>x7T9!</code>) vorangestellt: <code>x7T9!geheim123</code>. Selbst wenn zwei Nutzer exakt dasselbe Passwort geheim123 wählen, sorgt der individuelle Salt dafür, dass völlig unterschiedliche Hash-Werte in der Datenbank landen.</li>
+</ul>
+<h4 id="wie-wird-der-salt-gespeichert">Wie wird der Salt gespeichert?</h4>
+<p>Der individuelle Salt wird zusammen mit dem Hash-Wert des Passworts im Klartext in der Benutzerdatenbank (oder der Passwort-Tabelle) gespeichert.Das sieht in einer Datenbanktabelle meist so aus:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Benutzer</th>
+<th style="text-align: center;">Eingetragener Salt (im Klartext)</th>
+<th style="text-align: center;">Gespeicherter Hash-Wert (Password + Salt)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Max</td>
+<td style="text-align: center;"><code>x7T9!</code></td>
+<td style="text-align: center;"><code>8f4b2c...</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Anna</td>
+<td style="text-align: center;"><code>m2K1$</code></td>
+<td style="text-align: center;"><code>3a9e7d...</code></td>
+</tr>
+</tbody>
+</table>
+<p>Wenn ein Angreifer Zugriff auf die Datenbank erlangt, sieht er den Salt von Max (<code>x7T9!</code>) und den Salt von Anna (<code>m2K1$</code>) im vollkommen unverschlüsselten Klartext.</p>
+<p>Das ist aber kein Sicherheitsfehler, sondern vom System so einkalkuliert. Um zu verstehen, warum der Salt trotzdem extrem wirksam schützt, muss man sich ansehen, wie ein Angreifer Passwörter knackt:</p>
+<ul>
+<li>Der Angriff ohne Salt (mit Rainbow Tables): Ein Hacker klaut die Datenbank. Da er keine Passwörter im Klartext hat, muss er raten. Er nimmt eine riesige vorberechnete Tabelle (Rainbow Table) mit Milliarden von gängigen Passwörtern und deren fertigen Hashes. Er muss in dieser Tabelle nur nach dem geklauten Hash-Wert suchen. Das dauert Bruchteile von Sekunden – selbst für Millionen von Usern gleichzeitig, weil man die Tabelle universell für diesen Hash-Algorithmus nutzen kann.</li>
+<li>Der Angriff mit individuellen Salts: Wenn jede Zeile in der Datenbank einen anderen zufälligen Salt hat, nützt dem Hacker seine universelle Rainbow Table überhaupt nichts mehr. Selbst wenn er den Salt (x7T9!) in der Datenbank abliest, kann er die fertige Tabelle nicht mehr verwenden. Er müsste für jeden einzelnen Benutzer in der Datenbank die Rainbow Table komplett neu berechnen (unter Einbeziehung des jeweiligen Salts) oder für jeden Versuch das Passwort mühsam einzeln per Brute-Force durchprobieren.</li>
+</ul>
+<hr />
+<h3 id="material-m2111-code-signing">Material M|2.11.1: Code Signing</h3>
+<p>Ein kryptografischer Hash (wie wir ihn von Prüfsummen kennen) ist wie ein digitaler Fingerabdruck. Er beweist zwar, dass eine Datei unversehrt ist – aber er hat einen entscheidenden Haken: Er beweist nicht, wer die Datei geschrieben hat.</p>
+<p>Stellen Sie sich vor, ein Angreifer manipuliert eine Software, berechnet für seine veränderte (schädliche) Version einen neuen Hash-Wert und veröffentlicht diesen im Internet. Wenn Sie nun das Update herunterladen und den Hash-Wert prüfen, stimmt er überein – weil Sie ja den Hash der manipulierten Datei mit der manipulierten Datei vergleichen. Ihnen fehlt die Gewissheit, ob die Datei wirklich vom legitimen Hersteller stammt.
+Das Prinzip des Code Signings (Asymmetrische Kryptografie)</p>
+<p>Hier schließt Code Signing die Lücke. Es verbindet Integrität mit Authentizität (Echtheitsnachweis) und Nicht-Abstreitbarkeit, indem es auf asymmetrische Verschlüsselung setzt. Dabei nutzt der Software-Hersteller ein echtes Schlüsselpaar:</p>
+<ul>
+<li>Der Private Key (Geheimer Schlüssel): Dieser Schlüssel liegt streng geschützt beim Software-Hersteller (oder in einem Hardware Security Module wie ein USB-Krypto-Stick oder ein TPM-Chip). Nur mit diesem Schlüssel kann der Hersteller eine digitale Signatur für den Programmcode erzeugen.</li>
+<li>Der Public Key (Öffentlicher Schlüssel): Dieser Schlüssel ist weltweit frei verfügbar und oft fest in Betriebssystemen, Browsern oder Maschinensteuerungen einprogrammiert.</li>
+</ul>
+<h4 id="der-ablauf-in-der-praxis">Der Ablauf in der Praxis:</h4>
+<ul>
+<li>Beim Hersteller (Signieren): Der Hersteller nimmt die fertige Software-Datei, erstellt davon einen Hash-Wert und verschlüsselt diesen Hash-Wert mit seinem Private Key. Das Ergebnis ist die digitale Signatur, die fest an die Software angehängt wird.</li>
+<li>Beim Endgerät / in der Anlage (Verifizieren): Bevor das Gerät das Update installiert, prüft es die Signatur mithilfe des Public Key. Das System entschlüsselt die Signatur und vergleicht den herausgerechneten Hash mit dem tatsächlichen Hash der Datei.</li>
+</ul>
+<h4 id="was-passiert-wenn-etwas-nicht-stimmt">Was passiert, wenn etwas nicht stimmt?</h4>
+<p>Das System führt beim Code Signing zwei automatische Kontrollen durch:</p>
+<ul>
+<li>Stimmt die Identität? Wenn die Signatur nicht mit dem hinterlegten Public Key des echten Herstellers übereinstimmt, war der Urheber ein Fremder. Das System schlägt Alarm.</li>
+<li>Wurde etwas verändert (Integrität)? Selbst wenn die Signatur vom echten Hersteller stammt, aber ein Angreifer auch nur ein einziges Byte im Programmcode verändert hat, passt der Hash-Wert nicht mehr zur Signatur.</li>
+</ul>
+<hr />
+<h3 id="arbeitsauftrag-a212-prozesse-des-changemenagements-realisieren">Arbeitsauftrag A|2.12: Prozesse des Changemenagements realisieren</h3>
+<p>Bei der RECPLAST GmbH haben unkoordinierte Eingriffe gravierende Spuren hinterlassen: Die eigenmächtige Rezepturänderung an Extruder 2 und der blind eingesteckte USB-Stick mit dem Update für Extruder 4 zeigen, dass Änderungen bislang "ad hoc", unkontrolliert und ohne Freigabe durchgeführt wurden. In modernen Produktions- und IT-Umgebungen (Operational Technology / IT) führt dieses "Wild-Wandern" unweigerlich zu Sicherheitslücken, Ausschuss und Produktionsstillständen. Um die Integrität dauerhaft zu sichern, muss ein professionelles Änderungsmanagement (Change Management) etabliert werden.</p>
+<h4 id="aufgabe-1_12">Aufgabe 1</h4>
+<p>Welchen Konflikt gibt es im Alltag zwischen der Flexibilität der Produktion ("Der Techniker muss schnell handeln können") und der Sicherheit durch Change Management?</p>
+<h4 id="aufgabe-2_12">Aufgabe 2</h4>
+<p>Entwerfen Sie für die RECPLAST GmbH einen strukturierten Prozess (Lifecycle) für zukünftige Änderungen an Rezepturen und Steuerungssoftware. Beschreiben Sie die folgenden Schritte:</p>
+<ol>
+<li>Change Request (Antrag): Wer stellt den Antrag und welche Informationen müssen zwingend enthalten sein?</li>
+<li>Review &amp; Freigabe (Prüfung): Wer muss den Antrag prüfen und freigeben?</li>
+<li>Test &amp; Vorbereitung: Warum sollte eine Änderung vor dem echten Betrieb in einer Testumgebung (Staging) validiert werden?</li>
+<li>Implementierung &amp; Dokumentation: Wie wird die Änderung durchgeführt und wo wird sie revisionssicher protokolliert?</li>
+</ol>
+<h4 id="aufgabe-3_12">Aufgabe 3</h4>
+<p>Wie kann ein beschleunigter Prozess für Notfall-Änderungen (Emergency Changes) aussehen, der einerseits schnell reagiert, aber andererseits Missbrauch verhindert?</p>
+<h4 id="aufgabe-4_8">Aufgabe 4</h4>
+<p>Welche Rolle spielen nachträgliche Audits (Review nach dem Notfalleinsatz)?</p>
+<hr />
+<h3 id="material-m2120-change-management">Material M|2.12.0: Change Management</h3>
+<p>Technische Schutzmaßnahmen wie Passwörter, Hashes oder USB-Sperren sind wirkungslos, wenn die Menschen, die mit den Systemen arbeiten, Änderungen unkontrolliert, spontan oder im Alleingang durchführen. Ohne einen festen organisatorischen Rahmen entsteht ein enormes Sicherheitsrisiko.</p>
+<p>Hier greift das Change Management (Änderungsmanagement) als disziplinierter Prozess zur Steuerung aller Anpassungen in IT- und Produktionsumgebungen.</p>
+<h4 id="was-ist-change-management-und-warum-wird-es-benotigt">Was ist Change Management und warum wird es benötigt?</h4>
+<p>Unter Change Management versteht man im Bereich der IT-Sicherheit einen standardisierten, dokumentierten Ablauf für die Planung, Prüfung, Freigabe, Durchführung und Nachbereitung von Änderungen (Changes).</p>
+<p>Das Ziel ist es, den Konflikt zwischen zwei Gegensätzen zu lösen:</p>
+<ul>
+<li>Produktionsdruck: Techniker und Schichtleiter wollen schnell auf Probleme reagieren, Maschinen anpassen oder Updates einspielen, um Stillstände zu vermeiden.</li>
+<li>Sicherheit und Integrität: Jede unüberlegte Änderung birgt das Risiko von Fehlern, Datenverlust, Sabotage oder Produktionsausschuss.</li>
+</ul>
+<p>Ein professioneller Change-Prozess sorgt dafür, dass Änderungen nicht verhindert, sondern kontrolliert und sicher gemacht werden.</p>
+<h4 id="der-klassische-change-management-lifecycle">Der klassische Change-Management-Lifecycle</h4>
+<p>Damit eine Änderung (z. B. eine neue Rezeptur im Labor-ERP oder ein Firmware-Update für eine SPS) fehlerfrei und nachvollziehbar umgesetzt wird, durchläuft sie in der Regel vier Phasen:</p>
+<ol>
+<li>Der Change Request (Antragstellung): Niemand ändert einfach so etwas. Jede Anpassung beginnt mit einem formalen Antrag. Darin wird präzise beschrieben: Was soll geändert werden, warum ist das notwendig, welche Systeme sind betroffen und welches Risiko besteht bei einem Fehlschlag?</li>
+<li>Review und Freigabe (Prüfung): Der Antrag wird von zuständigen Stellen (z. B. Laborleitung, IT-Sicherheit/CISO oder dem Change Advisory Board) geprüft. Hier gilt häufig das Vier-Augen-Prinzip: Eine zweite Person kontrolliert den Plan, bevor er genehmigt wird. Damit wird verhindert, dass Fehler oder Manipulationen unentdeckt bleiben.</li>
+<li>Test und Validierung: Bevor eine neue Software oder eine veränderte Rezeptur auf die echten Produktionsanlagen losgelassen wird, erfolgt ein Test in einer isolierten Testumgebung (Staging), um unerwartete Nebenwirkungen auszuschließen.</li>
+<li>Implementierung und Dokumentation: Nach erfolgreicher Freigabe und Testphase wird die Änderung zum geplanten Zeitpunkt durchgeführt und lückenlos im System protokolliert (Audit-Trail).</li>
+</ol>
+<h4 id="der-notfall-change-emergency-change">Der Notfall-Change (Emergency Change)</h4>
+<p>In einer Fabrik wie bei der RECPLAST GmbH kann es vorkommen, dass ein akuter Fehler auftritt, der sofort behoben werden muss, um einen teuren Stillstand (wie den drohenden Ausfallschaden von 12.000 € pro Stunde) abzuwenden. Für solche Situationen gibt es den Emergency Change:</p>
+<ul>
+<li>Der normale, langwierige Freigabeprozess wird temporär verkürzt, indem beispielsweise telefonisch oder über eine Notfall-Schleife der Betriebskontrolleur und der CISO parallel informiert werden.</li>
+<li>Die goldene Regel: Auch ein Notfall entbindet niemals von der Dokumentation. Sobald die Krise abgewendet ist, muss die Notfall-Änderung innerhalb kurzer Zeit formal nachgeprüft und im System lückenlos dokumentiert werden (Post-Implementation Review).</li>
+</ul>
+<hr />
+<h2 id="kompetenz-23-verfugbarkeit-sicherstellen">Kompetenz 2.3: Verfügbarkeit sicherstellen</h2>
+<p>Nur wenige Meter weiter steht Extruder 4 in Werkhalle 2 still. Der Blick auf die Produktionsuhr und den ausfallenden Haupt-Switch treibt die Kosten pro Stunde rasant nach oben. Frau Weber blickt ernst auf die betroffene Anlage:</p>
+<p>"12.000 Euro Ausfallschaden pro Stunde – und das nur, weil ein einfaches Netzteil am Hallenverteiler ausgefallen ist und weder ein redundantes Netzteil noch eine USV eingeplant war. Verfügbarkeit heißt für uns, dass IT-Systeme, Netzwerke und Maschinen dann einsatzbereit sein müssen, wenn sie gebraucht werden. Ein einzelner ausgefallener Netzstecker oder ein fehlendes Ersatzteil darf nicht gleich die gesamte Produktion lahmlegen. Lassen Sie uns erarbeiten: Mit welchen technischen Redundanzen und organisatorischen Vorkehrungen sichern wir die Hochverfügbarkeit unserer kritischen Industrie-4.0-Anlagen ab?"</p>
+<figure style="max-width: 100%; margin: 1em 0; text-align: center;"> 
+     <img src="bilder/02_verfuegbarkeit.png" alt="Verfügbarkeit sicherstellen" style="width: 100%; height: auto; border-radius: 6px;"> 
+     <figcaption style="font-size: 0.85em; color: #555555; margin-top: 6px; font-style: italic;"> 
+         Abb.: Verfügbarkeit sicherstellen <span style="font-style: normal; opacity: 0.8;">(🤖 KI-generiert)</span> 
+     </figcaption> 
+ </figure>
+
+<hr />
+<h3 id="arbeitsauftrag-a213-moglichkeiten-zur-erhohung-der-verfugbarkeit-beschreiben">Arbeitsauftrag A|2.13: Möglichkeiten zur Erhöhung der Verfügbarkeit beschreiben</h3>
+<h3 id="arbeitsauftrag-a214-stromabsicherung-planen">Arbeitsauftrag A|2.14: Stromabsicherung planen</h3>
+<h3 id="arbeitsauftrag-a215-monitoring-und-fruhwarnsysteme-nutzen">Arbeitsauftrag A|2.15: Monitoring und Frühwarnsysteme nutzen</h3>
+<h3 id="arbeitsauftrag-a216-backups-planen">Arbeitsauftrag A|2.16: Backups planen</h3>
+<h3 id="arbeitsauftrag-a217-notfall-und-widerherstellungsplane-einrichten">Arbeitsauftrag A|2.17: Notfall- und Widerherstellungspläne einrichten</h3>
+<hr />
+<div class="admonition info">
+<p class="admonition-title">Lizenz</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Der FISI LF4 Kurs</span> von <a xmlns:cc="http://creativecommons.org/ns#" href="https://herr-nm.github.io/MMBbS_FISI_LF04/" property="cc:attributionName" rel="cc:attributionURL">André Neumann</a> ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>. Fragen, Hinweise etc. an neumann@mmbbs.de.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": [], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
