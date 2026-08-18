@@ -65,46 +65,31 @@ Erstellen Sie sich eine Übersicht der Schutzziele der Informationssicherheit mi
 
 #### Aufgabe 3
 
-Ordnen Sie die in Aufgabe 1 identifizierten Probleme den Schutzzielen und ggf. wenn möglich den Nachgeordneten Themenschwerpunkten zu.
+Ordnen Sie die in Aufgabe 1 identifizierten Probleme den Schutzzielen und ggf. wenn möglich den nachgeordneten Themenschwerpunkten zu.
 
 ---
 
 ### Material M|2.0.0: CIA-Triade
 
-Die **CIA-Triade** bildet das Fundament der modernen Informationssicherheit. Das Akronym setzt sich aus den englischen Begriffen **Confidentiality**, **Integrity** und **Availability** zusammen. Diese drei Schutzziele definieren die grundlegenden Anforderungen an den sicheren Umgang mit Daten, Systemen und Prozessen in einer Organisation.
+In einer zunehmend vernetzten Welt verarbeiten Organisationen täglich riesige Mengen sensibler Daten. Um Systeme, Prozesse und Informationen wirksam vor Bedrohungen zu schützen, bildet die sogenannte CIA-Triade das theoretische und praktische Fundament der modernen IT-Sicherheit. Das Akronym leitet sich aus den englischen Begriffen Confidentiality (Vertraulichkeit), Integrity (Integrität) und Availability (Verfügbarkeit) ab. Diese drei Schutzziele definieren die grundlegenden Anforderungen an einen sicheren Umgang mit Daten und IT-Infrastrukturen.
 
-#### 1. Vertraulichkeit / Confidentiality
+#### Vertraulichkeit (Confidentiality)
 
-Das Schutzziel der **Vertraulichkeit** stellt sicher, dass Informationen nur denjenigen Personen, Systemen oder Prozessen zugänglich sind, die eine explizite Berechtigung dafür besitzen. Unbefugte Einblicke – sei es durch externe Angreifer oder nicht autorisierte interne Mitarbeiter – müssen wirksam verhindert werden. Dem Schutzziel zuzuordnen sind der Schutz sensibler Betriebsgeheimnisse, personenbezogener Daten, Finanzkennzahlen sowie der Schutz von Zugangsdaten vor unberechtigtem Zugriff.
+Das Schutzziel der Vertraulichkeit stellt sicher, dass Informationen ausschließlich Personen, Systemen oder Prozessen zugänglich sind, die eine ausdrückliche Berechtigung besitzen. Unbefugte Einblicke – sei es durch externe Angreifer oder nicht autorisierte interne Mitarbeitende – müssen konsequent verhindert werden. Dies betrifft insbesondere sensible Betriebsgeheimnisse, personenbezogene Daten, Finanzkennzahlen sowie Zugangsdaten.
 
-**Aspekte, die dem Schutzziel positiv gegenüberstehen:**
+Um Vertraulichkeit in der Praxis zu gewährleisten, kommen sowohl technische als auch organisatorische Schutzmaßnahmen zum Einsatz. Auf technischer Ebene sichern kryptografische Verfahren Daten in allen Zuständen: ob ruhend (Data at Rest), während der Übertragung (Data in Transit) oder bei der Verarbeitung (Data in Use). Ergänzt wird dies durch ein striktes Rechtemanagement nach dem Principle of Least Privilege (Minimalprinzip), rollenbasierte Zugriffskontrollen (RBAC) sowie die Pflicht zur Multi-Faktor-Authentifizierung (MFA) für alle Systemzugänge. Auf organisatorischer Seite unterstützen Vertraulichkeitsvereinbarungen (NDAs), die systematische Klassifizierung von Dokumenten (etwa in öffentlich, intern oder streng vertraulich) sowie physische Zutrittskontrollen zu Rechenzentren und Leitständen diesen Schutz.
 
-* **Kryptografische Verfahren:** Der Einsatz starker Verschlüsselung für ruhende Daten (*Data at Rest*), Daten in Übertragung (*Data in Transit*) und Daten in Verarbeitung (*Data in Use*).
-* **Zugriffskontrollen und Rechtemanagement:** Konsequente Anwendung des *Principle of Least Privilege* (Minimalprinzip) sowie die Implementierung von Rollen-basierten Zugriffskontrollen (RBAC).
-* **Authentifizierung:** Die Pflicht zur Multi-Faktor-Authentifizierung (MFA) für alle Systemzugänge.
-* **Organisatorische Maßnahmen:** Vertraulichkeitsvereinbarungen (NDAs), Klassifizierung von Dokumenten (z. B. *Öffentlich*, *Intern*, *Streng vertraulich*) sowie die Physische Zutrittskontrolle zu Rechenzentren und Leitständen.
+#### Integrität (Integrity)
 
-#### 2. Integrität / Integrity
+Während die Vertraulichkeit vor unbefugtem Lesen schützt, garantiert das Schutzziel der Integrität die Korrektheit, Vollständigkeit und Unversehrtheit von Daten und Systemfunktionen. Es stellt sicher, dass Informationen nicht unbefugt, unbeabsichtigt oder unbemerkt verändert, gelöscht oder gefälscht werden können. Dies ist essenziell für die Zuverlässigkeit von Buchhaltungsdaten, Produktionsrezepturen, Steuerungsbefehlen in Industrieanlagen sowie für die Gültigkeit von Systemkonfigurationen.
 
-Das Schutzziel der **Integrität** garantiert die Korrektheit, Vollständigkeit und Unversehrtheit von Daten und Systemfunktionen. Es stellt sicher, dass Informationen nicht unbefugt, unbeabsichtigt oder unbemerkt verändert, gelöscht oder gefälscht werden können. Dem Schutzziel zuzuordnen sind die Zuverlässigkeit von Datensätzen (z. B. Rezepturen, Buchhaltungsdaten, Steuerungsbefehle in der Produktion), die Gültigkeit von Systemkonfigurationen sowie die Manipulationssicherheit von Übertragungskanälen.
+Zur Sicherung der Integrität dienen kryptografische Prüfsummen (wie Hashwerte mit SHA-256) und digitale Signaturen, die jede Modifikation an Daten unverzüglich erkennbar machen. Auf Prozessebene verhindern das Vier-Augen-Prinzip bei kritischen Freigaben sowie die strikte Trennung von Entwicklungs-, Test- und Produktionsumgebungen ungewollte oder manipulierte Eingriffe. Zudem fangen automatische Plausibilitätsprüfungen in Anwendungen fehlerhafte Eingaben ab, während revisionssichere WORM-Speichermedien (Write-Once-Read-Many) und Versionierungssysteme eine lückenlose Historisierung aller Änderungen gewährleisten.
 
-**Aspekte, die dem Schutzziel positiv gegenüberstehen:**
+#### Verfügbarkeit (Availability)
 
-* **Kryptografische Nachweise:** Verwendung von digitalen Signaturen und kryptografischen Prüfsummen (Hashwerten wie SHA-256), um Modifikationen sofort erkennbar zu machen.
-* **Prozess- und Rechtekontrollen:** Implementierung des Vier-Augen-Prinzips bei kritischen Freigaben und Änderungen sowie die strikte Trennung von Entwicklungs-, Test- und Produktionsumgebungen.
-* **Eingabe- und Datenvalidierung:** Automatische Plausibilitätsprüfungen in Softwareanwendungen, um fehlerhafte oder schädliche Eingaben abzufangen.
-* **Revisionssichere Speicherung:** Einsatz von Write-Once-Read-Many-Speichermedien (WORM) und Versionierungssystemen zur Historisierung von Datenänderungen.
+Das dritte Schutzziel, die Verfügbarkeit, gewährleistet, dass autorisierte Nutzerinnen und Nutzer jederzeit und störungsfrei auf benötigte Daten, IT-Systeme und Dienstleistungen zugreifen können. Da ein Systemausfall ganze Geschäftsprozesse oder Produktionsstraßen vollständig lähmen kann, steht die Minimierung von ungeplanten Ausfallzeiten (Downtime) im Zentrum dieser Säule.
 
-#### 3. Verfügbarkeit / Availability
-
-Das Schutzziel der **Verfügbarkeit** gewährleistet, dass Autorisierte bei Bedarf unverzüglich und störungsfrei auf Daten, IT-Systeme und Dienstleistungen zugreifen können. Ein Ausfall von Systemen oder Netzwerken kann Geschäftsprozesse oder Produktionsstraßen vollständig lähmen. Dem Schutzziel zuzuordnen sind die Funktionsfähigkeit der IT/OT-Infrastruktur, die Aufrechterhaltung der Netzwerkkonnektivität, die Betriebsbereitschaft von Servern und Datenbanken sowie die Minimierung von ungeplanten Ausfallzeiten (Downtime).
-
-**Aspekte, die dem Schutzziel positiv gegenüberstehen:**
-
-* **Redundanz:** Redundante Auslegung kritischer Komponenten wie Netzteile, Festplatten (RAID), Netzwerkpfade, Server-Cluster und Rechenzentren (Single Point of Failure vermeiden).
-* **Ausfallsichere Infrastruktur:** Einsatz von Unterbrechungsfreien Stromversorgungen (USV), Notstromaggregaten und redundanten Klimaanlagen in Serverräumen.
-* **Datensicherung und Notfallplanung:** Regelmäßige Erstellung von Backups (z. B. nach der 3-2-1-Regel), regelmäßiges Testen der Wiederherstellung (Disaster Recovery) sowie ausgearbeitete Business-Continuity-Pläne (BCP).
-* **Schutz vor Überlastung:** Implementierung von Load Balancern sowie automatisierten Schutzmechanismen gegen Denial-of-Service-Angriffe (DDoS-Protection).
+Die technische Ausfallsicherheit wird vor allem durch Redundanz erreicht: Kritische Komponenten wie Netzteile, Festplattenverbünde (RAID), Netzwerkpfade, Server-Cluster und gesamte Rechenzentren werden mehrfach ausgelegt, um sogenannte Single Points of Failure konsequent zu vermeiden. Ergänzend sichern unterbrechungsfreie Stromversorgungen (USV), Notstromaggregate und redundante Klimaanlagen die physische Betriebsbereitschaft von Serverräumen. Gegen Datenverlust und Großschadenslagen schützen regelmäßige Datensicherungen (beispielsweise nach der bewährten 3-2-1-Regel) sowie ausgearbeitete Wiederherstellungs- und Notfallpläne (Disaster Recovery und Business Continuity Plans). Zusätzlich fangen Load Balancer und automatisierte Überlastungsschutzsysteme (DDoS-Protection) Angriffe ab, die darauf abzielen, Dienste durch gezielte Datenüberflutung außer Betrieb zu setzen.
 
 ---
 
