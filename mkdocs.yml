@@ -30,6 +30,5 @@ nav:
     - Kapitel 00 - Organisatorisches: '00_organisatorisches.md'
     - Kapitel 01 - Vorstellung der Modellunternehmen: '01_modellunternehmen.md'
     - Kapitel 02 - Schutzziele der Informationssicherheit sicherstellen: '02_schutzziele.md'
-    - Kapitel 03 - Schutzbedarfsanalyse planen: '03_schutzbedarfsanalyse_planen.md'
-    - Kapitel 04 - Bedrohungen und Schadenszenarien einordnen: '04_bedrohungen_szenarien.md'
-    - Kapitel 05 - Schutzbedarfsanalyse durchführen und bewerten: '05_schutzbedarfsanalyse_durchfuehren.md'
+    - Kapitel 03 - Bedrohungen und Schadenszenarien einordnen: '03_bedrohungen_schadenszenarien.md'
+    - Kapitel 04 - Schutzbedarfsanalyse durchführen: '04_schutzbedarfsanalyse.md'

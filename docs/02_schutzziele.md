@@ -95,7 +95,9 @@ Die technische Ausfallsicherheit wird vor allem durch Redundanz erreicht: Kritis
 
 ## Kompetenz 2.1: Vertraulichkeit sicherstellen
 
-Während Sie noch am Leitstand stehen, weist Frau Weber auf den eingesteckten USB-Stick und den Notizzettel mit dem gemeinsamen Passwort: "Dass hier jeder ungehindert reinschauen und Daten abgreifen kann, ist ein untragbarer Zustand für die Vertraulichkeit unserer Daten. Lassen Sie uns diesen Bereich jetzt gründlich durchleuchten: Welche technischen und organisatorischen Möglichkeiten haben wir überhaupt, um Vertraulichkeit herzustellen, und welche davon passen zu den Abläufen hier bei RECPLAST?"
+Während Sie noch am Leitstand stehen, weist Frau Weber auf den eingesteckten USB-Stick und den Notizzettel mit dem gemeinsamen Passwort:
+
+"*Dass hier jeder ungehindert reinschauen und Daten abgreifen kann, ist ein untragbarer Zustand für die Vertraulichkeit unserer Daten. Lassen Sie uns diesen Bereich jetzt gründlich durchleuchten: Welche technischen und organisatorischen Möglichkeiten haben wir überhaupt, um Vertraulichkeit herzustellen, und welche davon passen zu den Abläufen hier bei RECPLAST?*"
 
  <figure style="max-width: 100%; margin: 1em 0; text-align: center;"> 
  	 <img src="bilder/02_vertraulichkeit.png" alt="Alles für die Vertraulichkeit" style="width: 100%; height: auto; border-radius: 6px;"> 
@@ -114,7 +116,7 @@ Fassen Sie kurz in eigenen Worten zusammen, welche der Probleme in der RECPLAST 
 
 #### Aufgabe 2
 
-Welche Maßnahmen können in einem Unternehmen ergriffen werden, um die Vertraulichkeit sicherzustellen? Informieren Sie sich in M|2.1.0: Deep Dive – Schutzziel Vertraulichkeit hierüber.
+Welche Maßnahmen können in einem Unternehmen ergriffen werden, um die Vertraulichkeit sicherzustellen? Informieren Sie sich in M|2.1.0: Deep Dive - Schutzziel Vertraulichkeit hierüber.
 
 #### Aufgabe 3
 
@@ -127,7 +129,7 @@ Begründen Sie Ihre Auswahl gegenüber Frau Weber (CISO der RECPLAST GmbH):
 
 ---
 
-### Material M|2.1.0: Deep Dive – Schutzziel Vertraulichkeit
+### Material M|2.1.0: Deep Dive - Schutzziel Vertraulichkeit
 
 #### 1. Was bedeutet Vertraulichkeit?
 
@@ -614,7 +616,7 @@ Die größten Lücken bei der Vertraulichkeit (u.a. das gemeinsame Gruppenkonto 
 
 Frau Weber holt noch einmal die Protokolle der Qualitätskontrolle hervor und legt sie auf den Tisch:
 
-"Dass Daten nicht nur eingesehen, sondern unbemerkt manipuliert werden können, zeigt der Vorfall an Extruder 2 überdeutlich. Eine eigenmächtige Rezepturänderung von 4,5 % auf 14,5 % beim Additiv REC-Poly-3 – ohne Freigabe im Labor-ERP – hat mal eben 8 Tonnen Granulat vernichtet. Dazu kommt der fremde USB-Stick mit dem unklaren Update und das geteilte Gruppenkonto, bei dem niemand nachvollziehen kann, wer welche Eingabe getätigt hat. Integrität bedeutet für uns: Unversehrtheit, Verlässlichkeit und Verbindlichkeit von Daten und Systemen. Wir müssen jetzt klären: Wie stellen wir sicher, dass Daten und Konfigurationen manipulationssicher bleiben und Änderungen lückenlos nachvollziehbar sind?"
+"*Dass Daten nicht nur eingesehen, sondern unbemerkt manipuliert werden können, zeigt der Vorfall an Extruder 2 überdeutlich. Eine eigenmächtige Rezepturänderung von 4,5 % auf 14,5 % beim Additiv REC-Poly-3 – ohne Freigabe im Labor-ERP – hat mal eben 8 Tonnen Granulat vernichtet. Dazu kommt der fremde USB-Stick mit dem unklaren Update und das geteilte Gruppenkonto, bei dem niemand nachvollziehen kann, wer welche Eingabe getätigt hat. Integrität bedeutet für uns: Unversehrtheit, Verlässlichkeit und Verbindlichkeit von Daten und Systemen. Wir müssen jetzt klären: Wie stellen wir sicher, dass Daten und Konfigurationen manipulationssicher bleiben und Änderungen lückenlos nachvollziehbar sind?*"
 
  <figure style="max-width: 100%; margin: 1em 0; text-align: center;"> 
  	 <img src="bilder/02_integritaet.png" alt="Integrität sicherstellen" style="width: 100%; height: auto; border-radius: 6px;"> 
@@ -906,7 +908,7 @@ In einer Fabrik wie bei der RECPLAST GmbH kann es vorkommen, dass ein akuter Feh
 
 Bleibt noch der Ausfall von Extruder 4 vom Montag. Frau Weber steht mit Ihnen vor dem Hallenverteiler, in dem der defekte Switch inzwischen ersetzt wurde, und blickt ernst auf die Anlage:
 
-"Der Ausfall am Montag hat uns 12.000 Euro pro Stunde gekostet – und das nur, weil ein einfaches Netzteil am Hallenverteiler ausgefallen ist und weder ein redundantes Netzteil noch eine USV eingeplant war. Verfügbarkeit heißt für uns, dass IT-Systeme, Netzwerke und Maschinen dann einsatzbereit sein müssen, wenn sie gebraucht werden. Ein einzelner ausgefallener Netzstecker darf nicht gleich die gesamte Produktion lahmlegen. Lassen Sie uns erarbeiten: Mit welchen technischen und organisatorischen Maßnahmen sichern wir unsere Anlagen gegen Ausfälle ab?"
+"*Der Ausfall am Montag hat uns 12.000 Euro pro Stunde gekostet – und das nur, weil ein einfaches Netzteil am Hallenverteiler ausgefallen ist und weder ein redundantes Netzteil noch eine USV eingeplant war. Verfügbarkeit heißt für uns, dass IT-Systeme, Netzwerke und Maschinen dann einsatzbereit sein müssen, wenn sie gebraucht werden. Ein einzelner ausgefallener Netzstecker darf nicht gleich die gesamte Produktion lahmlegen. Lassen Sie uns erarbeiten: Mit welchen technischen und organisatorischen Maßnahmen sichern wir unsere Anlagen gegen Ausfälle ab?*"
 
  <figure style="max-width: 100%; margin: 1em 0; text-align: center;"> 
  	 <img src="bilder/02_verfuegbarkeit.png" alt="Verfügbarkeit sicherstellen" style="width: 100%; height: auto; border-radius: 6px;"> 
@@ -923,7 +925,7 @@ Am Montagmorgen stand Extruder 4 still. Bevor Sie Maßnahmen planen, klären Sie
 
 #### Aufgabe 1
 
-Lesen Sie M|2.13.0: Deep Dive – Schutzziel Verfügbarkeit. Erklären Sie in zwei bis drei Sätzen mit eigenen Worten, was Verfügbarkeit bedeutet.
+Lesen Sie M|2.13.0: Deep Dive - Schutzziel Verfügbarkeit. Erklären Sie in zwei bis drei Sätzen mit eigenen Worten, was Verfügbarkeit bedeutet.
 
 #### Aufgabe 2
 
@@ -1542,7 +1544,7 @@ Wenige Tage nach den Vorfällen ruft Frau Weber Sie erneut in den Besprechungsra
 *"Das Passwort am Monitor, der fremde USB-Stick, der ungesicherte Hallenverteiler: Das waren keine Fehler der Technik, sondern Gewohnheiten. Die ändern wir nicht mit einer einmaligen Schulung. Wir hängen deshalb ab dem nächsten Jahr einen IT-Security-Kalender im Leitstand, in der Werkhalle und in den Büros aus. Jeden Monat ein Thema, das jeder in zwei Minuten versteht und sofort umsetzen kann.  Sie haben alle drei Schutzziele durchgearbeitet, also bringen Sie sie bitte in Form."*
 
  <figure style="max-width: 100%; margin: 1em 0; text-align: center;"> 
- 	 <img src="bilder/02_kalender.png" alt="IT-Security-Kalender im Leitstand" style="width: 100%; height: auto; border-radius: 6px;"> 
+ 	 <img src="bilder/02_kalender.jpg" alt="IT-Security-Kalender im Leitstand" style="width: 100%; height: auto; border-radius: 6px;"> 
  	 <figcaption style="font-size: 0.85em; color: #555555; margin-top: 6px; font-style: italic;"> 
  	 	 Abb.: IT-Security-Kalender im Leitstand <span style="font-style: normal; opacity: 0.8;">(🤖 KI-generiert)</span> 
  	 </figcaption> 
